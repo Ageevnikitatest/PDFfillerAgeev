@@ -17,7 +17,7 @@ public static void list () {
 
 
      Cookie cookieDisableCaptcha = new AutotestCookie().getCookie();
-    driver.get("http://dev20.pdffiller.com/");
+    driver.get("http://www.pdffiller.com/");
     driver.manage().addCookie(cookieDisableCaptcha);
 
     List<Integer> formList = Arrays.asList(100018326, 100077356, 41887, 6961919, 100030287, 100050444, 100055378,
@@ -32,8 +32,8 @@ public static void list () {
             236658, 100036844, 898079, 100045712, 148419, 6961849, 100079451, 100106730);
 
         for (Integer id: formList) {
-        PageObject.openUrl("http://dev20.pdffiller.com/" + id);
-            if (PageObject.getLinkAndCheck("--") || PageObject.getLinkAndCheck("-.")||
+        PageObject.openUrl("http://www.pdffiller.com/" + id);
+           if (PageObject.getLinkAndCheck("--") || PageObject.getLinkAndCheck("-.")||
                     PageObject.getLinkAndCheck("---")||PageObject.getLinkAndCheck("_")) {
                 System.out.println(id);
             }
