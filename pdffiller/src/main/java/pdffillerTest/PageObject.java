@@ -182,9 +182,9 @@ public class PageObject extends BeforeAfter{
 
     public static void ifGetText(String url) {
 
-        if (checkButton(url)){
-            System.out.println("Text : " + getText(url));}}
-
+        if (checkButton(url)) {
+        }
+    }
 
     public static void deleteAccount () throws InterruptedException {
         openUrl("https://www.pdffiller.com/en/account/?op=account_info");
