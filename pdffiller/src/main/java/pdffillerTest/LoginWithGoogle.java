@@ -1,7 +1,9 @@
 package pdffillerTest;
 
 import org.openqa.selenium.By;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import pdffillerLessons.Listener;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
@@ -11,12 +13,14 @@ import static org.testng.Assert.assertTrue;
  * Created by ANS on 26/08/15.
  */
 
-/*  ОПИСАНИЕ ! ! ! 
+/*  ОПИСАНИЕ ! ! !
 
 Два метода :
 1. Регистрируется с помощью Гугла , проверяет наличие аватарки , и удаляет аккаунт
 2. Логинится с помощью Гугла , проверяет наличие аватарки и разлогинивается.
 */
+
+@Listeners({Listener.class})   // слушатель
 
 
 public class LoginWithGoogle extends BeforeAfter {
@@ -26,7 +30,12 @@ public class LoginWithGoogle extends BeforeAfter {
     private static final String PASSWORDFORLogin = "Letmein5";
     String urlStatic = "/img/header/header-user-icon-default";
 
+
+
+
+
     @Test
+
 
     public void registrationWithGoogle () throws InterruptedException {
         driver.manage().deleteAllCookies();
@@ -80,8 +89,4 @@ public class LoginWithGoogle extends BeforeAfter {
          PageObject.clickButtonXpath("//div[@class='h-ac__dropdown']/a[text()='Log out']");
          Thread.sleep(2000);
     }
-
-
-
-
 }
