@@ -5,6 +5,8 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pdffillerLessons.Listener;
 
+import java.io.IOException;
+
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
@@ -34,9 +36,7 @@ public class LoginWithGoogle extends BeforeAfter {
 
 
 
-    @Test
-
-
+    @Test(priority = 2)
     public void registrationWithGoogle () throws InterruptedException {
         driver.manage().deleteAllCookies();
         PageObject.openUrl("https://www.pdffiller.com/en/login.htm");
@@ -67,12 +67,13 @@ public class LoginWithGoogle extends BeforeAfter {
     }
 
 
-     @Test
 
-    public void loginWithGoogle () throws InterruptedException {
+     @Test(priority = 1)
+    public void loginWithGoogle () throws InterruptedException, IOException {
          driver.manage().deleteAllCookies();
         PageObject.openUrl("https://www.pdffiller.com/en/login.htm");
         PageObject.clickButtonXpath("//div[text()='Login with Google']");
+         Thread.sleep(2000);
         PageObject.sendKeys("//div[@class='form-panel first valid']//input[@id='Email']", EMAILFORLogin); //send Email
         PageObject.clickButtonId("next");  // Click Next
         PageObject.sendKeys("//div[@class='form-panel second']//input[@id='Passwd']", PASSWORDFORLogin); // send Password
@@ -86,7 +87,9 @@ public class LoginWithGoogle extends BeforeAfter {
         Thread.sleep(4000);
         assertFalse(urlImage.contains(urlStatic));
          PageObject.clickButtonXpath("//div[@class='h-ac__caret']/img [@id='user_logo_thumb_header']");
+         Thread.sleep(1000);
          PageObject.clickButtonXpath("//div[@class='h-ac__dropdown']/a[text()='Log out']");
          Thread.sleep(2000);
     }
 }
+

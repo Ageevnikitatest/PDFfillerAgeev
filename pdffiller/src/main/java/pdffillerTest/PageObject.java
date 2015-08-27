@@ -1,5 +1,6 @@
 package pdffillerTest;
 
+import com.sun.tools.javac.util.List;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -9,7 +10,10 @@ import org.testng.Assert;
 import java.io.File;
 import java.io.IOException;
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+
 import java.util.concurrent.TimeUnit;
 
 
@@ -25,14 +29,37 @@ public class PageObject extends BeforeAfter{
 
         driver.get(url);}
 
-    public static void screenshot() throws IOException {
+    public static void screenshot(String name) throws IOException {
 
-        File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        String path = "a\\snap"+ screenshot.getName() ; //
-        FileUtils.copyFile(screenshot, new File(path), true);
-        FileUtils.copyFile(screenshot, new File("/Users/ANS/Documents/JAVA/Screenshots/screenshot.png"));
+        String scrFolder = "/Users/ANS/Documents/JAVA/Screenshots/" + new SimpleDateFormat("MM_dd_yyyy").format(
+                Calendar.getInstance().getTime()).toString();
+
+        new File(scrFolder).mkdir();
+
+        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+        FileUtils.copyFile(scrFile, new File(scrFolder + "/" + name + new SimpleDateFormat("HH_mm_ss").format(
+                Calendar.getInstance().getTime()).toString() + ".png"));
+
+
+
 
     }
+
+
+    public static void screenshot() throws IOException {
+        screenshot("sc");
+
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -76,11 +103,13 @@ public class PageObject extends BeforeAfter{
             return false;}
     }
 
-    public static void visiblElement (String xpath){
+    public static void visiblElement(String xpath){
         WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement element = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+
     }
+
 
     public static String emailReg = null;
 
