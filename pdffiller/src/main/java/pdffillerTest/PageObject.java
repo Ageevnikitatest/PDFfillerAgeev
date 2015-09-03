@@ -40,28 +40,12 @@ public class PageObject extends BeforeAfter{
 
         FileUtils.copyFile(scrFile, new File(scrFolder + "/" + name + new SimpleDateFormat("HH_mm_ss").format(
                 Calendar.getInstance().getTime()).toString() + ".png"));
-
-
-
-
     }
 
 
     public static void screenshot() throws IOException {
         screenshot("sc");
-
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
     public static void registration(String openUrl) throws InterruptedException {

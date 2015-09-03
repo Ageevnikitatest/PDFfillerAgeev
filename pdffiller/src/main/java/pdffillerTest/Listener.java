@@ -1,4 +1,4 @@
-package pdffillerLessons;
+package pdffillerTest;
 
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -22,7 +22,7 @@ public class Listener extends TestListenerAdapter {
 
 
     public void onTestStart(ITestResult result){
-        System.out.println(result.getName() +"__________________________________________________________Start");
+       // System.out.println(result.getName() +"_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Start");
 
 
     }
@@ -31,7 +31,7 @@ public class Listener extends TestListenerAdapter {
 
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println(result.getName()+ "_______________________________________________________Failure");
+        System.out.println(result.getName()+ "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Error");
         try {
             PageObject.screenshot(result.getName());
         } catch (IOException e) {
@@ -45,18 +45,18 @@ public class Listener extends TestListenerAdapter {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println(result.getName() + "______________________________________________________Success");
-        try {
+        System.out.println(result.getName() + "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Success");
+        /*try {
             PageObject.screenshot(result.getName());
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
 
-        System.out.println(result.getName() + "______________________________________________________Skipped");
+        System.out.println(result.getName() + "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Skipped");
 
     }
 

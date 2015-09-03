@@ -3,7 +3,6 @@ package pdffillerTest;
 import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pdffillerLessons.Listener;
 
 import java.io.IOException;
 
@@ -36,7 +35,7 @@ public class LoginWithGoogle extends BeforeAfter {
 
 
 
-    @Test(priority = 2)
+    @Test(priority = 1)
     public void registrationWithGoogle () throws InterruptedException {
         driver.manage().deleteAllCookies();
         PageObject.openUrl("https://www.pdffiller.com/en/login.htm");
@@ -68,7 +67,7 @@ public class LoginWithGoogle extends BeforeAfter {
 
 
 
-     @Test(priority = 1)
+    // @Test(priority = 1)
     public void loginWithGoogle () throws InterruptedException, IOException {
          driver.manage().deleteAllCookies();
         PageObject.openUrl("https://www.pdffiller.com/en/login.htm");
