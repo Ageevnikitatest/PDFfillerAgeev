@@ -2,6 +2,7 @@ package pdffillerTest;
 
 import com.sun.tools.javac.util.List;
 import org.apache.commons.io.FileUtils;
+import org.junit.ComparisonFailure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -184,14 +185,23 @@ public class PageObject extends BeforeAfter{
         return k;
     }
 
-    public static void checkText(String actual, String xpath){
+
+
+
+
+
+    public static void checkText(String actual, String xpath){   // переписать !!!!
         try {
 
             Assert.assertEquals(actual, getText(xpath));
         }
-        catch (org.junit.ComparisonFailure e ) {
+        catch (ComparisonFailure e ) {
             System.out.println( "Incorrect text : " + actual);
         }}
+
+
+
+
 
     public static void ifGetText(String url) {
 
