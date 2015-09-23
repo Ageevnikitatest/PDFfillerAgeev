@@ -1,8 +1,6 @@
 package pdffillerTest;
 
-import com.sun.tools.javac.util.List;
 import org.apache.commons.io.FileUtils;
-import org.junit.ComparisonFailure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -102,9 +100,9 @@ public class PageObject extends BeforeAfter{
     public  static  void  sendEmailPass() { // передача мыла и пароля
 
         emailReg =  "test007+AutoTestAgeev" + getCurrentTimestamp() + "@pdffiller.com";
-        sendKeys("//div//td/input[@class = 'placeholders input old_vers2 grad-input']",emailReg);
-        sendKeys("//div//td/input[@class = 'placeholders old_vers2 input grad-input']", "1111");
-        clickButtonId("register_btn_site");
+        sendKeys(Buttons.emailFieldOnRegister,emailReg);
+        sendKeys(Buttons.passwordFieldOnRegister, "1111");
+        clickButtonId(Buttons.registerButtonOrange);
 
     }
 
@@ -190,15 +188,12 @@ public class PageObject extends BeforeAfter{
 
 
 
-    public static void checkText(String actual, String xpath){   // переписать !!!!
-        try {
+    public static void checkText(String actual, String xpath) {
 
-            Assert.assertEquals(actual, getText(xpath));
-        }
-        catch (ComparisonFailure e ) {
-            System.out.println( "Incorrect text : " + actual);
-        }}
 
+        Assert.assertEquals(actual, getText(xpath));
+
+    }
 
 
 

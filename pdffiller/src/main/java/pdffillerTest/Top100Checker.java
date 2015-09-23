@@ -1,4 +1,4 @@
-package pdffillerLessons;
+package pdffillerTest;
 
 import org.openqa.selenium.Cookie;
 import org.testng.Assert;

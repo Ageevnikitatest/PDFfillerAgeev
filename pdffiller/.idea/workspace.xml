@@ -2,18 +2,27 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/java/pdffillerTest/CustomBranding.java" line="62" />
-    <bookmark url="file://$PROJECT_DIR$/pom.xml" line="53" />
+    <bookmark url="file://$PROJECT_DIR$/pom.xml" line="67" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3c79d5-c8fe-4a2d-8191-a04322cb4bc5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arredamenty/Catalog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/layoutTests/landings/CompetitorEfaxCompetitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/layoutTests.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pdffillerTest/RegistrationWithGoogle.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pdffillerLessons/MassiveList.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/layoutTests.xml" afterPath="$PROJECT_DIR$/layoutTests.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pdffillerLessons/ConstructorBuild.java" afterPath="$PROJECT_DIR$/src/main/java/pdffillerTest/ConstructorBuild.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pdffillerLessons/ConstructorTest.java" afterPath="$PROJECT_DIR$/src/main/java/pdffillerTest/ConstructorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pdffillerLessons/MassiveList.java" afterPath="$PROJECT_DIR$/src/main/java/pdffillerTest/MassiveList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pdffillerLessons/Top100Checker.java" afterPath="$PROJECT_DIR$/src/main/java/pdffillerTest/Top100Checker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pdffillerTest/BeforeAfter.class" afterPath="$PROJECT_DIR$/target/classes/pdffillerTest/BeforeAfter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pdffillerTest/Buttons.class" afterPath="$PROJECT_DIR$/target/classes/pdffillerTest/Buttons.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pdffillerTest/PageObject.class" afterPath="$PROJECT_DIR$/target/classes/pdffillerTest/PageObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pdffillerTest/BeforeAfter.java" afterPath="$PROJECT_DIR$/src/main/java/pdffillerTest/BeforeAfter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pdffillerTest/Buttons.java" afterPath="$PROJECT_DIR$/src/main/java/pdffillerTest/Buttons.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pdffillerTest/LoginWithGoogle.java" afterPath="$PROJECT_DIR$/src/main/java/pdffillerTest/LoginWithGoogle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pdffillerTest/PageObject.java" afterPath="$PROJECT_DIR$/src/main/java/pdffillerTest/PageObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PdfFiller.iml" afterPath="$PROJECT_DIR$/PdfFiller.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pdffillerTest/searchLife.java" afterPath="$PROJECT_DIR$/src/main/java/pdffillerTest/searchLife.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pdffiller.iws" />
@@ -37,43 +46,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="searchLife.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="searchLife.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/searchLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8512748">
-              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileWorker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/FileWorker.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="148" column="39" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="PageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/PageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.4814816">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1884#1885#0" expanded="true" />
+                <element signature="e#1961#1962#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginWithGoogle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/LoginWithGoogle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layoutTests.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/layoutTests.xml">
+      <file leaf-file-name="RegistrationWithGoogle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/RegistrationWithGoogle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeforeAfter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/BeforeAfter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layoutTests.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layoutTests.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15665796">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -106,8 +141,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/PO.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/RobotPutPicture.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/BeforeAfter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/Buttons.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerLessons/MassiveList.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/GmailClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/CustomBranding.java" />
@@ -127,16 +160,20 @@
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/CriticalTestListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/EncryptedFolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerLessons/Listener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/LoginWithGoogle.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/Listener.java" />
         <option value="$PROJECT_DIR$/src/test/java/layoutTests/landings/CompetitorEfaxCompetitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/layoutTests.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/arredamenty/Catalog.java" />
+        <option value="$PROJECT_DIR$/.idea/layoutTests.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/searchLife.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/BeforeAfter.java" />
         <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/PageObject.java" />
-        <option value="$PROJECT_DIR$/.idea/layoutTests.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/Buttons.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/LoginWithGoogle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/RegistrationWithGoogle.java" />
+        <option value="$PROJECT_DIR$/layoutTests.xml" />
       </list>
     </option>
   </component>
@@ -256,8 +293,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,25 +323,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfFiller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pdffiller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,46 +404,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pdffillerLessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfFiller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pdffiller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfFiller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pdffiller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -421,7 +412,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
@@ -434,51 +425,18 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="pdffillerTest" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.idea" />
       <recent name="$PROJECT_DIR$/src/main/java/pdffillerTest" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/java/imap" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pdffillerTest" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/ANS/IdeaProjects/pdffiller/.idea/layoutTests.xml (1)">
-    <configuration default="false" name="EncryptedFolder" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pdffillerTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PdfFiller" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="pdffillerTest" />
-      <option name="MAIN_CLASS_NAME" value="pdffillerTest.EncryptedFolder" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.LoginWithGoogle">
     <configuration default="false" name="relatedTreeMarketing" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -606,6 +564,39 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="false" name="CustomBranding" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pdffillerTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PdfFiller" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="pdffillerTest" />
+      <option name="MAIN_CLASS_NAME" value="pdffillerTest.CustomBranding" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -715,6 +706,28 @@
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -865,19 +878,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="TestNG./Users/ANS/IdeaProjects/pdffiller/.idea/layoutTests.xml" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.LoginWithGoogle" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.EncryptedFolder" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.relatedTreeMarketing" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.searchLife" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.Reviews" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG./Users/ANS/IdeaProjects/pdffiller/.idea/layoutTests.xml (1)" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.relatedTreeMarketing" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.searchLife" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Reviews" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG./Users/ANS/IdeaProjects/pdffiller/.idea/layoutTests.xml (1)" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.CustomBranding" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG./Users/ANS/IdeaProjects/pdffiller/.idea/layoutTests.xml (1)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.Reviews" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.searchLife" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.relatedTreeMarketing" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.EncryptedFolder" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CustomBranding" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG./Users/ANS/IdeaProjects/pdffiller/.idea/layoutTests.xml (1)" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Reviews" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.searchLife" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.relatedTreeMarketing" />
       </list>
     </recent_temporary>
   </component>
@@ -888,7 +901,7 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -900,7 +913,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -919,13 +932,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21527778" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40326977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40326977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -944,7 +957,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="12" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -953,27 +966,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Documents/JAVA/selenium-2.46.0/selenium-server-standalone-2.46.0.jar!/com/google/common/collect/EmptyImmutableBiMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/JAVA/selenium-2.46.0/selenium-server-standalone-2.46.0.jar!/com/google/common/collect/CollectPreconditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/JAVA/selenium-2.46.0/selenium-server-standalone-2.46.0.jar!/com/google/common/collect/Collections2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5185184">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Documents/JAVA/selenium-2.46.0/selenium-server-standalone-2.46.0.jar!/com/google/common/collect/Maps.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.0740743">
@@ -1079,21 +1071,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerLessons/Top100Checker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/Top100Checker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20892495">
           <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerLessons/ConstructorBuild.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/ConstructorBuild.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerLessons/ConstructorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/ConstructorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
@@ -1107,14 +1099,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/imap/ImapClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="64" selection-start-line="90" selection-start-column="64" selection-end-line="90" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerLessons/MassiveList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/MassiveList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28125">
           <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
@@ -1177,27 +1162,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/CustomBranding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding>
-            <element signature="docComment;class#CustomBranding#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/Buttons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1229,13 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/LoginWithGoogle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/GmailClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1254,17 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/BeforeAfter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,34 +1230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19121814">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#Catalog#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/layoutTests.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,15 +1238,100 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="148" column="39" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/CustomBranding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62439024">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="docComment;class#CustomBranding#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/searchLife.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8512748">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/imap/ImapClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07317073">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/RegistrationWithGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/LoginWithGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73170733">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/Buttons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81707317">
+          <caret line="51" column="115" selection-start-line="51" selection-start-column="115" selection-end-line="51" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4814816">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/BeforeAfter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layoutTests.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15665796">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1386,6 +1393,7 @@
             <option name="proportions">
               <list>
                 <option value="0.24597701" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

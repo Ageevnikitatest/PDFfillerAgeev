@@ -33,10 +33,5 @@ public class searchLife extends BeforeAfter{
 
 
 
-
     }
-
-
-
-
 }

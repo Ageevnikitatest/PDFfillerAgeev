@@ -1,4 +1,4 @@
-package pdffillerLessons;
+package pdffillerTest;
 
 import org.testng.annotations.Test;
 

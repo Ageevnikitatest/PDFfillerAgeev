@@ -34,8 +34,8 @@ public class Buttons {
     public static String noThanksDev = "//a [@href='/en/payment/subscription_cancel.htm?v=interview']";
     public static String yesDeletesLife = "(//article [@class='delete-account-btns']//a[@class='btn -light-gray'])[2]";
     public static String cancelSubscrLinkLife = "//a [@href='/en/account/?op=payment_options']";
-    public static String forgotPass = "//div [@class = 'login-offset2']/a";
-    public static String registerButton = "//div//a[@class= 'btn-gray btns1']";
+    public static String forgotPass = "//div [@id = 'btn-forgot-password']'";
+    public static String registerButton = "//section [@id='login-block-img-register']/button[@class ='btn -light-gray login-block__swintch-btn']";
     public static String cusBrandTextLine = "//div[@class='row_branding_form row_text_line']/input[@class='input_branding']";
     public static String cusBrandFirstName = "(//div[@class='row_branding_form row_f_l_name']/input[@class='input_branding small_input'])[1]";
     public static String cusBrandLastName = "(//div[@class='row_branding_form row_f_l_name']/input[@class='input_branding small_input'])[2]";
@@ -45,5 +45,9 @@ public class Buttons {
     public static String custBrandFax = "//div[@class='row_branding_form row_fax']/input[@class='input_branding']";
     public static String custBrandDone = "//div[text()='Done']";
     public static String custBrandSendTestEmail = "//div[text()='Send test Email']";
-
+    public static  String registerButtonOrange = "//div[@class='login-block-form-fields']/button [@class='btn -orange login-block__action-btn']";
+    public static  String emailFieldOnRegister = "(//div[@class='form-group']/input[@name='username'])[1]";
+    public static  String passwordFieldOnRegister = "(//div[@class='form-group showPassword']/input[@name='password'])[1]";
+    public static  String googleButtonOnLogin = "//div[@class='login-block-social__btns']/a [@id='btn-google']";
+    public static String facebookButtonOnLogin = "//div[@class='login-block-social__btns']/button[@id='face_login']";
 }
