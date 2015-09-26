@@ -1,7 +1,11 @@
-package pdffillerTest;
+package differentTest;
 
+import imap.AutotestCookie;
+import imap.BeforeAfter;
+import imap.FileWorker;
 import org.openqa.selenium.Cookie;
 import org.testng.annotations.Test;
+import imap.PageObject;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -10,7 +14,7 @@ import java.util.List;
 /**
  * Created by ANS on 21/08/15.
  */
-public class relatedTreeMarketing  extends BeforeAfter{
+public class RelatedTreeMarketing extends BeforeAfter {
 
 
 
@@ -154,7 +158,7 @@ public class relatedTreeMarketing  extends BeforeAfter{
                                 PageObject.openUrl("http://dev23.pdffiller.com/" + num);
                                 Thread.sleep(1000);
 
-                                if (!PageObject.displayed_any_ByXpath("//*[contains(@href,'"+id+"')]")){
+                                if (!PageObject.isDisplayedXpath("//*[contains(@href,'" + id + "')]")){
                                         System.err.print(num + "  ");
                                 } else {
                                         System.out.print(num + "  ");

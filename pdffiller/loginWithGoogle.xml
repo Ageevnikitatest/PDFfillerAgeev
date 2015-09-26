@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Layout" >
-	<parameter name="CH" value="Test" />
-	<test name="TestLogin">
+<suite name="loginWithGoogle" >
+	<parameter name="Browser" value="CH" />
+	<test name="loginWithGoogle">
 		<classes>
 			<class name="pdffillerTest.LoginWithGoogle"></class>
-			<class name="pdffillerTest.RegistrationWithGoogle"></class>
 		</classes>
 	</test>
 </suite>

@@ -1,4 +1,4 @@
-package pdffillerTest;
+package imap;
 
 /**
  * Created by ANS on 29/07/15.
@@ -34,7 +34,7 @@ public class Buttons {
     public static String noThanksDev = "//a [@href='/en/payment/subscription_cancel.htm?v=interview']";
     public static String yesDeletesLife = "(//article [@class='delete-account-btns']//a[@class='btn -light-gray'])[2]";
     public static String cancelSubscrLinkLife = "//a [@href='/en/account/?op=payment_options']";
-    public static String forgotPass = "//div [@id = 'btn-forgot-password']'";
+    public static String forgotPass = "//div [@id = 'btn-forgot-password']";
     public static String registerButton = "//section [@id='login-block-img-register']/button[@class ='btn -light-gray login-block__swintch-btn']";
     public static String cusBrandTextLine = "//div[@class='row_branding_form row_text_line']/input[@class='input_branding']";
     public static String cusBrandFirstName = "(//div[@class='row_branding_form row_f_l_name']/input[@class='input_branding small_input'])[1]";

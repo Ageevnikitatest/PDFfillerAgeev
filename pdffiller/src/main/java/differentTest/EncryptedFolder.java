@@ -1,15 +1,17 @@
-package pdffillerTest;
+package differentTest;
 
 
+import imap.BeforeAfter;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+import imap.PageObject;
 
 import java.io.IOException;
 
 /**
  * Created by ANS on 17/08/15.
  */
-public class EncryptedFolder extends BeforeAfter{
+public class EncryptedFolder extends BeforeAfter {
 
     @Test
     public void folder () throws InterruptedException, IOException {

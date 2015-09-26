@@ -1,9 +1,12 @@
-package pdffillerTest;
+package differentTest;
 
+import imap.BeforeAfter;
+import imap.Listener;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import imap.PageObject;
 
 /**
  * Created by ANS on 03/09/15.
@@ -11,7 +14,7 @@ import org.testng.annotations.Test;
 
 
 @Listeners({Listener.class})
-public class searchLife extends BeforeAfter{
+public class SearchLifeMarketing extends BeforeAfter {
 
 
     @Test

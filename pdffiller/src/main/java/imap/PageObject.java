@@ -1,11 +1,16 @@
-package pdffillerTest;
+package imap;
 
+import imap.BeforeAfter;
+import imap.Buttons;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 import java.sql.Timestamp;
@@ -13,13 +18,13 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import java.util.concurrent.TimeUnit;
-
 
 /**
  * Created by ANS on 7/28/15.
  */
-public class PageObject extends BeforeAfter{
+
+
+public class PageObject extends BeforeAfter {
 
 
 
@@ -50,7 +55,7 @@ public class PageObject extends BeforeAfter{
     public static void registration(String openUrl) throws InterruptedException {
 
         checkLink("login", openUrl);
-        if (displayed_any_ByXpath(Buttons.forgotPass)){
+        if (isDisplayedXpath(Buttons.forgotPass)){
             clickButtonXpath(Buttons.registerButton);
             sendEmailPass();
         }
@@ -70,21 +75,22 @@ public class PageObject extends BeforeAfter{
         driver.findElement(By.xpath(xpath)).click();
     }
 
-    public static void sendKeys(String xpath, String text) { // нажатие
+    public static void sendKeys(String xpath, String text) {
         driver.findElement(By.xpath(xpath)).sendKeys(text);
     }
 
-    public static boolean displayed_any_ByXpath(String xpath){ // отображение элемента на стр
+    public static boolean isDisplayedXpath(String xpath) { // отображение элемента на стр
 
-        try {
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-            WebElement k = driver.findElement(By.xpath(xpath));
-            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-            return k.isDisplayed();
-            } catch (org.openqa.selenium.NoSuchElementException e) {
-            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-            return false;}
-    }
+        if(driver.findElements(By.xpath(xpath)).size() != 0) {
+            return true;
+        }
+        else
+            System.out.println("* * * * * * * * * ERROR ! Elementet ' " + xpath + " ' not dispayed * * * * * * * * * ");
+        return false;
+
+         }
+
+
 
     public static void visiblElement(String xpath){
         WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -102,7 +108,7 @@ public class PageObject extends BeforeAfter{
         emailReg =  "test007+AutoTestAgeev" + getCurrentTimestamp() + "@pdffiller.com";
         sendKeys(Buttons.emailFieldOnRegister,emailReg);
         sendKeys(Buttons.passwordFieldOnRegister, "1111");
-        clickButtonId(Buttons.registerButtonOrange);
+        clickButtonXpath(Buttons.registerButtonOrange);
 
     }
 
@@ -114,48 +120,37 @@ public class PageObject extends BeforeAfter{
         return ts.getTime();
     }
 
-    public static boolean checkButton(String xpath){
 
-        try {
-            driver.findElement(By.xpath(xpath));
-            return true;
-        }
 
-        catch (org.openqa.selenium.NoSuchElementException e) {
-            return false;}
-    }
 
     public static boolean getLinkAndCheck(String link) {
 
-
-
             String url = driver.getCurrentUrl();
             return url.contains(link);
-
-
     }
+
 
     public static void checkLink(String link,String linkOpen){
 
         try {String url = driver.getCurrentUrl();
             boolean url2 = url.contains(link);
-            if (url2){
+            if (url2){}
 
-            }
             else openUrl(linkOpen);
-
         }
+
         catch (Exception e) {
             openUrl(linkOpen);
 
-        }}
+        }
+    }
+
 
     public static void waitLink(String url) throws InterruptedException {
 
         while (!driver.getCurrentUrl().contains(url)){
             Thread.sleep(1000);
         }
-
     }
 
     public static void getParametr (String parametr) {
@@ -166,17 +161,6 @@ public class PageObject extends BeforeAfter{
 
     }
 
-    public static boolean waitButton(String xpath, String p){ // для ожидания элемента на странице по xpath
-
-        try{
-            new WebDriverWait(driver,2).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
-        }catch (TimeoutException e){
-            System.out.println("No such element: "+ p );
-            return false;
-        }
-        return true;
-
-    }
 
     public static String getText(String xpath) {
         String k = driver.findElement(By.xpath(xpath)).getText();
@@ -185,24 +169,12 @@ public class PageObject extends BeforeAfter{
 
 
 
-
-
-
     public static void checkText(String actual, String xpath) {
 
-
         Assert.assertEquals(actual, getText(xpath));
-
     }
 
 
-
-
-    public static void ifGetText(String url) {
-
-        if (checkButton(url)) {
-        }
-    }
 
     public static void deleteAccount () throws InterruptedException {
         openUrl("https://www.pdffiller.com/en/account/?op=account_info");
@@ -216,26 +188,21 @@ public class PageObject extends BeforeAfter{
 
 
 
-
-
-
-
-
-
-
-
     public static void deleteAccoutnDev (String devNumber) throws InterruptedException {
 
         openUrl("https://" + devNumber + ".pdffiller.com/en/account/?op=account_info");
 
-        if (displayed_any_ByXpath("//a [@href='/en/account/?op=payment_options']")){
+        if (isDisplayedXpath("//a [@href='/en/account/?op=payment_options']")){
             clickButtonXpath("//a [@href='/en/account/?op=payment_options']"); // закрыть (подписку ссылка)
             clickButtonXpath(Buttons.cancelSubscription);
             clickButtonXpath(Buttons.noThanksDev);
             clickButtonXpath(Buttons.myAccount);
             openUrl("https://" + devNumber + ".pdffiller.com/en/account/?op=account_info");
             clickButtonXpath(Buttons.deleteAccount);
-            checkAlert(); }}
+            checkAlert();
+        }
+    }
+
 
     public static void checkAlert() {
         try {
@@ -268,41 +235,38 @@ public class PageObject extends BeforeAfter{
                 (driver.getCurrentUrl().contains("en/payment/success/cc/")){
             System.out.println("Payment successful");
         }
-
     }
 
-    public static void ifClickButton (String xpath, String xpath1){
-        if (checkButton(xpath)){
-            clickButtonXpath(xpath1);}
 
-    }
 
-    public static void loginGoogle () throws InterruptedException {
-        openUrl("https://mail.google.com/mail/u/0/#inbox");
-        clickButtonXpath("//div [@class='maia-util']/a [@href='https://accounts.google.com/ServiceLogin?service=mail..']");
-        waitLink("ServiceLogin");
-        sendKeys("//div [@class='form-panel first valid']//input[@id='Email']", "ageevnikitatest@gmail.com");
-        clickButtonXpath("//div [@class='form-panel first valid']//input[@id='next']");
-        Thread.sleep(2000);
-        sendKeys("//div [@class='form-panel second']//input[@id='Passwd']", "kifoR1996");
-        clickButtonXpath("//div [@class='form-panel second']//input[@id='signIn']");
-        waitLink("/mail/u/0/#inbox");
-
-    }
-
-    public static void clearField (String xpath) {
-        driver.findElement(By.xpath(xpath)).clear();
-
-    }
 
     public static void setElementAttribute(By by, String attr, String value){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement element = driver.findElement(by);
         js.executeScript("arguments[0].setAttribute('" + attr + "', '" + value + "');", element);
     }
+
+
+
+    public  static void robotPic() throws InterruptedException, AWTException {
+
+        String arr[] = {"/Users/ANS/Documents/JAVA/TEST.jpg"};
+
+        StringSelection photo = new StringSelection(arr[0]);
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(photo, null);
+
+
+
+        Thread.sleep(3000);
+        Robot robot = new Robot();
+        robot.keyPress(KeyEvent.VK_META);
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_V);
+
+        Thread.sleep(5000);
+
+    }
+
 }
-
-
-
 
 

@@ -1,10 +1,8 @@
-package pdffillerTest;
+package imap;
 
 import org.testng.ITestContext;
 import org.testng.ITestResult;
-import org.testng.Reporter;
 import org.testng.TestListenerAdapter;
-import pdffillerTest.PageObject;
 
 import java.io.IOException;
 

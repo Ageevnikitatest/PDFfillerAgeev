@@ -1,12 +1,15 @@
-package pdffillerTest;
+package differentTest;
 
+import imap.AutotestCookie;
+import imap.BeforeAfter;
 import org.openqa.selenium.Cookie;
 import org.testng.annotations.Test;
+import imap.PageObject;
 
 /**
  * Created by ANS on 13/08/15.
  */
-public class Reviews extends BeforeAfter{
+public class ReviewsMarketingVitalyk extends BeforeAfter {
 
     @Test
     public void check () throws InterruptedException {

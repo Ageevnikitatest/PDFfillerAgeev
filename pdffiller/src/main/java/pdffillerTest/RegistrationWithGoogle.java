@@ -1,5 +1,9 @@
 package pdffillerTest;
 
+import imap.BeforeAfter;
+import imap.Buttons;
+import imap.Listener;
+import imap.PageObject;
 import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -14,7 +18,7 @@ import static org.testng.Assert.assertFalse;
 
 
 
-public class RegistrationWithGoogle  extends BeforeAfter{
+public class RegistrationWithGoogle  extends BeforeAfter {
     private static final String EMAILFORREG ="test007@pdffiller.com";
     private static final String PASSWORDFORREG = "kifoR1996";
     String urlStatic = "/img/header/header-user-icon-default";
@@ -49,7 +53,6 @@ public class RegistrationWithGoogle  extends BeforeAfter{
             System.out.println("try. Delete account");
             throw e;  // возвращает ошибку , после каких либо действий
         }
-        driver.close();
     }
 
 

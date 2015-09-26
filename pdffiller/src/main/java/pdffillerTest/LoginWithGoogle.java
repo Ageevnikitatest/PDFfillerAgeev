@@ -1,5 +1,9 @@
 package pdffillerTest;
 
+import imap.BeforeAfter;
+import imap.Buttons;
+import imap.Listener;
+import imap.PageObject;
 import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -58,7 +62,6 @@ public class LoginWithGoogle extends BeforeAfter {
          Thread.sleep(1000);
          PageObject.clickButtonXpath("//div[@class='h-ac__dropdown']/a[text()='Log out']");
          Thread.sleep(2000);
-        driver.close();
     }
 }
 

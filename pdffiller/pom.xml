@@ -26,7 +26,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>layoutTests.xml</suiteXmlFile>  //  имя xml где все тесты
+                        <suiteXmlFile>loginAndRegisterWithGoogle.xml</suiteXmlFile>  //  имя xml где все тесты
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

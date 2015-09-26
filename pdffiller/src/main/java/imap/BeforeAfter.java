@@ -1,4 +1,4 @@
-package pdffillerTest;
+package imap;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -30,14 +30,14 @@ public class BeforeAfter {
         }
 
         else if (browser.equalsIgnoreCase("CH")){
-            System.setProperty("webdriver.chrome.driver", pdffillerTest.Constants.ROOT_DIR_CHROME_APP);
+            System.setProperty("webdriver.chrome.driver", Constants.ROOT_DIR_CHROME_APP);
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             System.out.println("Open Chrome Browser");
         }
 
         else if (browser.equalsIgnoreCase("IE")){
-           // System.setProperty("webdriver.chrome.driver", pdffillerTest.Constants.ROOT_DIR_CHROME_APP);  // IE
+           // System.setProperty("webdriver.chrome.driver", imap.Constants.ROOT_DIR_CHROME_APP);  // IE
             driver = new InternetExplorerDriver();
             driver.manage().window().maximize();
             System.out.println("Open IE Browser");

@@ -1,15 +1,10 @@
-package pdffillerTest;
+package differentTest;
 
-import org.openqa.selenium.Cookie;
+import imap.BeforeAfter;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pdffillerTest.AutotestCookie;
-import pdffillerTest.BeforeAfter;
-import pdffillerTest.PageObject;
-
-import java.util.Arrays;
-import java.util.List;
+import imap.PageObject;
 
 /**
  * Created by ANS on 13/08/15.

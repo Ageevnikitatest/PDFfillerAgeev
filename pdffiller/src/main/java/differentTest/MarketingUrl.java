@@ -1,7 +1,10 @@
-package pdffillerTest;
+package differentTest;
 
+import imap.AutotestCookie;
+import imap.BeforeAfter;
 import org.openqa.selenium.Cookie;
 import org.testng.annotations.Test;
+import imap.PageObject;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,7 +12,7 @@ import java.util.List;
 /**
  * Created by ANS on 11/08/15.
  */
-public class MarketingUrl extends BeforeAfter  {
+public class MarketingUrl extends BeforeAfter {
 
 @Test
 
