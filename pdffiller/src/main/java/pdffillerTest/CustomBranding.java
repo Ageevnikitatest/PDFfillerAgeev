@@ -49,7 +49,7 @@ public class CustomBranding extends BeforeAfter {
         PageObject.clickButtonXpath(Buttons.custBrandSendTestEmail);
         Thread.sleep(2000);
         PageObject.clickButtonXpath(Buttons.custBrandDone);
-        PageObject.checkAlert();
+        PageObject.swichToAlert();
         PageObject.deleteAccount();
         Thread.sleep(3000);
         String mailUrl = GmailClient.CheckTextInEmail("Test send personal email");

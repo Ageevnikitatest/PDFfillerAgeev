@@ -1,7 +1,5 @@
 package imap;
 
-import imap.BeforeAfter;
-import imap.Buttons;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -63,6 +61,16 @@ public class PageObject extends BeforeAfter {
         else {
             sendEmailPass();
              }
+    }
+
+
+    public static void login (String email, String password) {
+
+        driver.findElement(By.xpath("//div[@class='form-group']/input[@type='email']")).clear();
+        driver.findElement(By.xpath("//div[@class='form-group']/input[@type='email']")).sendKeys(email);
+        driver.findElement(By.xpath("(//div[@class='form-group showPassword']/input[@placeholder='Password'])[2]")).clear();
+        driver.findElement(By.xpath("(//div[@class='form-group showPassword']/input[@placeholder='Password'])[2]")).sendKeys(password);
+        driver.findElement(By.id("form-login-submit")).click();
     }
 
 
@@ -182,7 +190,7 @@ public class PageObject extends BeforeAfter {
         Thread.sleep(2000);
         clickButtonXpath(Buttons.yesDeletesLife);
         Thread.sleep(1000);
-        checkAlert();
+        swichToAlert();
 
     }
 
@@ -199,12 +207,12 @@ public class PageObject extends BeforeAfter {
             clickButtonXpath(Buttons.myAccount);
             openUrl("https://" + devNumber + ".pdffiller.com/en/account/?op=account_info");
             clickButtonXpath(Buttons.deleteAccount);
-            checkAlert();
+            swichToAlert();
         }
     }
 
 
-    public static void checkAlert() {
+    public static void swichToAlert() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, 2);
             wait.until(ExpectedConditions.alertIsPresent());
@@ -214,6 +222,11 @@ public class PageObject extends BeforeAfter {
         } catch (Exception e) {
 
         }
+    }
+
+
+    public static void swichToFrame(String id) {
+        driver.switchTo().frame(id);
     }
 
     public static void paymen_for_Dev () {
