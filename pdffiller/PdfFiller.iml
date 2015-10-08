@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -9,7 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library>
@@ -21,6 +21,9 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="javax.mail" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:6.8.8" level="project" />
+    <orderEntry type="library" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.27" level="project" />
     <orderEntry type="library" name="Maven: javax.mail:javax.mail-api:1.5.2" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.mail:javax.mail:1.5.2" level="project" />
@@ -78,6 +81,5 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:9.2.11.v20150529" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-common:9.2.11.v20150529" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.2.11.v20150529" level="project" />
-    <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
   </component>
 </module>

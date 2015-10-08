@@ -3,7 +3,7 @@ package vkBot;
 import imap.BeforeAfter;
 import imap.PageObject;
 import org.testng.annotations.Test;
-import sun.jvm.hotspot.debugger.Page;
+
 
 /**
  * Created by ANS on 26/09/15.

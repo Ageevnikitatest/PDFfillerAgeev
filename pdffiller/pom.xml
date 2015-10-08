@@ -8,6 +8,15 @@
     <artifactId>PDFFiller</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+    <properties>
+
+        <suite>Chat.xml</suite>
+
+    </properties>
+
+
+
     <build>
         <plugins>
             <plugin>
@@ -26,7 +35,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>loginAndRegisterWithGoogle.xml</suiteXmlFile>  //  имя xml где все тесты
+                        <suiteXmlFile>${suite}</suiteXmlFile>  //  имя xml где все тесты
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
