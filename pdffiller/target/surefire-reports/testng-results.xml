@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="registrationWithGoogle" duration-ms="221846" started-at="2015-10-08T08:34:10Z" finished-at="2015-10-08T08:37:52Z">
+  <suite name="registrationWithGoogle" duration-ms="31063" started-at="2015-10-13T16:23:19Z" finished-at="2015-10-13T16:23:50Z">
     <groups>
     </groups>
-    <test name="registrationWithGoogle" duration-ms="221846" started-at="2015-10-08T08:34:10Z" finished-at="2015-10-08T08:37:52Z">
-      <class name="pdffillerTest.Chat">
-        <test-method status="PASS" signature="setUpBrowser(java.lang.String)[pri:0, instance:pdffillerTest.Chat@3d8c7aca]" name="setUpBrowser" is-config="true" duration-ms="3337" started-at="2015-10-08T11:34:10Z" finished-at="2015-10-08T11:34:14Z">
+    <test name="registrationWithGoogle" duration-ms="31063" started-at="2015-10-13T16:23:19Z" finished-at="2015-10-13T16:23:50Z">
+      <class name="pdffillerTest.RegistrationWithGoogle">
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String)[pri:0, instance:pdffillerTest.RegistrationWithGoogle@67b64c45]" name="setUpBrowser" is-config="true" duration-ms="2443" started-at="2015-10-13T19:23:19Z" finished-at="2015-10-13T19:23:21Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="checkChat()[pri:0, instance:pdffillerTest.Chat@3d8c7aca]" name="checkChat" duration-ms="217837" started-at="2015-10-08T11:34:14Z" finished-at="2015-10-08T11:37:52Z">
+        <test-method status="PASS" signature="registrationWithGoogle()[pri:0, instance:pdffillerTest.RegistrationWithGoogle@67b64c45]" name="registrationWithGoogle" duration-ms="27983" started-at="2015-10-13T19:23:21Z" finished-at="2015-10-13T19:23:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkChat -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pdffillerTest.Chat@3d8c7aca]" name="tearDown" is-config="true" duration-ms="665" started-at="2015-10-08T11:37:52Z" finished-at="2015-10-08T11:37:52Z">
+        </test-method> <!-- registrationWithGoogle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pdffillerTest.RegistrationWithGoogle@67b64c45]" name="tearDown" is-config="true" duration-ms="631" started-at="2015-10-13T19:23:49Z" finished-at="2015-10-13T19:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- pdffillerTest.Chat -->
+      </class> <!-- pdffillerTest.RegistrationWithGoogle -->
     </test> <!-- registrationWithGoogle -->
   </suite> <!-- registrationWithGoogle -->
 </testng-results>

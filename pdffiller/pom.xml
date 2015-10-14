@@ -11,7 +11,7 @@
 
     <properties>
 
-        <suite>Chat.xml</suite>
+        <suite>TestSuite.xml</suite>   //  имя xml где все тесты
 
     </properties>
 

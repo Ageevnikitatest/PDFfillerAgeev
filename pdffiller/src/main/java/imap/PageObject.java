@@ -280,6 +280,13 @@ public class PageObject extends BeforeAfter {
 
     }
 
+
+    public static    WebElement waitElement (String xpath, int timeOut) {
+        WebDriverWait wait = new WebDriverWait(driver, timeOut);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+        return element;
+    }
+
 }
 
 
