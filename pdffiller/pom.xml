@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -7,12 +7,8 @@
     <groupId>PDFFiller</groupId>
     <artifactId>PDFFiller</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-
     <properties>
-
-        <suite>TestSuite.xml</suite>   //  имя xml где все тесты
-
+        <suite>TestSuite.xml</suite>
     </properties>
 
 
@@ -35,7 +31,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${suite}</suiteXmlFile>  //  имя xml где все тесты
+                        <suiteXmlFile>${suite}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
