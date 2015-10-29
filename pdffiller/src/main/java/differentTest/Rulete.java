@@ -15,6 +15,8 @@ public class Rulete {
 
     public static int main  (String[] args) {
 
+
+
         Scanner userInput = new Scanner( System.in );
         Random foo = new Random();
         String inputTextUser;
