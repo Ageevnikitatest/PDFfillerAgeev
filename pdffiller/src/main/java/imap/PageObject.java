@@ -138,7 +138,7 @@ public class PageObject extends BeforeAfter {
     }
 
 
-    public static void checkLink(String link,String linkOpen){
+    public static boolean checkLink(String link, String linkOpen){
 
         try {String url = driver.getCurrentUrl();
             boolean url2 = url.contains(link);
@@ -151,6 +151,7 @@ public class PageObject extends BeforeAfter {
             openUrl(linkOpen);
 
         }
+        return false;
     }
 
 

@@ -138,27 +138,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
         String url = driver.findElement(shortUrl).getText();
         return url ;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
