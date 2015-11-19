@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1447748181869" stop="1447748235177" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>customBranding : customBranding</name>
+    <title>customBranding : customBranding</title>
+    <test-cases>
+        <test-case start="1447748185347" stop="1447748234390" status="passed">
+            <name>open</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Custom Branding"/>
+                <label name="feature" value="Payment"/>
+                <label name="host" value="Nikitas-MacBook-Pro.local"/>
+                <label name="thread" value="27157@Nikitas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

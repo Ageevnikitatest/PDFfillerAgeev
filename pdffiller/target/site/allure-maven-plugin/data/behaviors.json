@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "Payment",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "9566ef7ed51cd9a6",
+      "title" : "Custom Branding",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "c373f3b158086ca",
+        "name" : "open",
+        "title" : "Open",
+        "time" : {
+          "start" : 1447748185347,
+          "stop" : 1447748234390,
+          "duration" : 49043
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

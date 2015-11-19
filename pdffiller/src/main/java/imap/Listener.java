@@ -20,7 +20,7 @@ public class Listener extends TestListenerAdapter {
 
 
     public void onTestStart(ITestResult result){
-       // System.out.println(result.getName() +"_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Start");
+       System.out.println(result.getName() +"_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Start");
 
 
     }
@@ -44,11 +44,11 @@ public class Listener extends TestListenerAdapter {
     @Override
     public void onTestSuccess(ITestResult result) {
         System.out.println(result.getName() + "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Success");
-        /*try {
+        try {
             PageObject.screenshot(result.getName());
         } catch (IOException e) {
             e.printStackTrace();
-        }*/
+        }
     }
 
     @Override

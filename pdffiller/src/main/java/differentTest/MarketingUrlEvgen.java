@@ -1,6 +1,6 @@
 package differentTest;
 
-import com.sun.xml.internal.xsom.impl.util.SchemaTreeTraverser;
+
 import imap.AutotestCookie;
 import imap.BeforeAfter;
 import org.openqa.selenium.Cookie;

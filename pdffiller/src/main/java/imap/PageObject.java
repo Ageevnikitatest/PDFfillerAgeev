@@ -5,6 +5,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
+import ru.yandex.qatools.allure.annotations.Step;
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
@@ -21,16 +23,16 @@ import java.util.Date;
  * Created by ANS on 7/28/15.
  */
 
-
+@Listeners({Listener.class})
 public class PageObject extends BeforeAfter {
 
 
 
-
+    @Step
     public static void openUrl(String url) {
 
         driver.get(url);}
-
+    @Step
     public static void screenshot(String name) throws IOException {
 
         String scrFolder = "/Users/ANS/Documents/JAVA/Screenshots/" + new SimpleDateFormat("MM_dd_yyyy").format(
@@ -49,7 +51,7 @@ public class PageObject extends BeforeAfter {
         screenshot("sc");
     }
 
-
+     @Step ("Registration new user")
     public static void registration(String openUrl) throws InterruptedException {
 
         checkLink("login", openUrl);
@@ -63,7 +65,7 @@ public class PageObject extends BeforeAfter {
              }
     }
 
-
+    @Step ("Login user")
     public static void login (String email, String password) {
 
         driver.findElement(By.xpath("//div[@class='form-group']/input[@type='email']")).clear();
@@ -74,19 +76,19 @@ public class PageObject extends BeforeAfter {
     }
 
 
-
+    @Step
     public static void clickButtonId(String id) { // нажатие
         driver.findElement(By.id(id)).click();
     }
-
+    @Step
     public static void clickButtonXpath(String xpath) { // нажатие
         driver.findElement(By.xpath(xpath)).click();
     }
-
+    @Step
     public static void sendKeys(String xpath, String text) {
         driver.findElement(By.xpath(xpath)).sendKeys(text);
     }
-
+    @Step
     public static boolean isDisplayedXpath(String xpath) { // отображение элемента на стр
 
         if(driver.findElements(By.xpath(xpath)).size() != 0) {
@@ -99,7 +101,7 @@ public class PageObject extends BeforeAfter {
          }
 
 
-
+    @Step
     public static void visiblElement(String xpath){
         WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement element = wait.until(
@@ -110,7 +112,7 @@ public class PageObject extends BeforeAfter {
 
     public static String emailReg = null;
 
-
+    @Step
     public  static  void  sendEmailPass() { // передача мыла и пароля
 
         emailReg =  "test007+AutoTestAgeev" + getCurrentTimestamp() + "@pdffiller.com";
@@ -121,7 +123,7 @@ public class PageObject extends BeforeAfter {
     }
 
 
-
+    @Step
     public static long getCurrentTimestamp(){
         Date date = new Date();
         Timestamp ts = new Timestamp(date.getTime());
@@ -130,14 +132,14 @@ public class PageObject extends BeforeAfter {
 
 
 
-
+    @Step
     public static boolean getLinkAndCheck(String link) {
 
             String url = driver.getCurrentUrl();
             return url.contains(link);
     }
 
-
+    @Step
     public static boolean checkLink(String link, String linkOpen){
 
         try {String url = driver.getCurrentUrl();
@@ -154,7 +156,7 @@ public class PageObject extends BeforeAfter {
         return false;
     }
 
-
+    @Step
     public static void waitLink(String url) throws InterruptedException {
 
         while (!driver.getCurrentUrl().contains(url)){
@@ -170,21 +172,21 @@ public class PageObject extends BeforeAfter {
 
     }
 
-
+    @Step
     public static String getText(String xpath) {
         String k = driver.findElement(By.xpath(xpath)).getText();
         return k;
     }
 
 
-
+    @Step
     public static void checkText(String actual, String xpath) {
 
         Assert.assertEquals(actual, getText(xpath));
     }
 
 
-
+    @Step
     public static void deleteAccount () throws InterruptedException {
         openUrl("https://www.pdffiller.com/en/account/?op=account_info");
         clickButtonXpath(Buttons.deleteAccount);
@@ -196,7 +198,7 @@ public class PageObject extends BeforeAfter {
     }
 
 
-
+    @Step
     public static void deleteAccoutnDev (String devNumber) throws InterruptedException {
 
         openUrl("https://" + devNumber + ".pdffiller.com/en/account/?op=account_info");
@@ -212,7 +214,7 @@ public class PageObject extends BeforeAfter {
         }
     }
 
-
+    @Step
     public static void swichToAlert() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, 2);
@@ -253,7 +255,7 @@ public class PageObject extends BeforeAfter {
 
 
 
-
+    @Step
     public static void setElementAttribute(By by, String attr, String value){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement element = driver.findElement(by);

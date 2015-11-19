@@ -4,6 +4,8 @@ import imap.*;
 import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import ru.yandex.qatools.allure.annotations.Features;
+import ru.yandex.qatools.allure.annotations.Stories;
 
 import java.awt.*;
 import java.io.IOException;
@@ -14,13 +16,16 @@ import java.io.IOException;
  * Created by ANS on 7/28/15.
  */
 
-@Listeners({Listener.class})   // слушатель
+@Listeners({Listener.class})
+@Features({"Custom Branding"})
+
 public class CustomBranding extends BeforeAfter {
 
    static By formInput = By.cssSelector("div form");
 
 
 
+    @Stories({"Custom Branding"})
 
     @Test
 

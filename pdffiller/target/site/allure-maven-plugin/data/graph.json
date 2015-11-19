@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "c373f3b158086ca",
+    "name" : "open",
+    "title" : "Open",
+    "time" : {
+      "start" : 1447748185347,
+      "stop" : 1447748234390,
+      "duration" : 49043
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}
