@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by ANS on 13/01/16.
  */
 
-public class HomeWorkOne {
+public class HomeWorkCalc {
 
     public static void main(String[] args) {
 

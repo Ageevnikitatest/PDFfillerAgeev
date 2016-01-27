@@ -5,15 +5,36 @@
     <bookmark url="file://$PROJECT_DIR$/pom.xml" line="163" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3c79d5-c8fe-4a2d-8191-a04322cb4bc5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/courseJava/HomeWorkCalc.java" afterPath="$PROJECT_DIR$/src/main/java/courseJava/HomeWorkOne.java" />
+    <list default="true" id="8e3c79d5-c8fe-4a2d-8191-a04322cb4bc5" name="Default" comment="error">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/encodings.xml" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" />
+    </list>
+    <list id="af552385-8475-4ded-a13b-942cf69d4b9f" name="Rejected commit: Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/1f519877-15d8-433c-911a-3a520892b0e1-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/412b81b8-e411-4253-9d66-6a624210c740-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/4a4c7de5-40f1-4a2d-8af5-423c515ec9dc-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/557fc575-bd5a-4ac5-94ed-cb45e9b1b1a8-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/598bd7e9-8808-4ee0-83c9-6fb19534a004-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/5e69f2fd-859c-4157-b57a-0fc291d8065f-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/9c889fcd-fa50-4540-8156-183a0bc8e75f-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/a4716cec-54be-4257-997a-044a23de868c-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/c11020ad-6e58-4ea8-85f7-cff6afe8ff54-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/ccbf2412-6531-46b4-a75a-c122cae3ca44-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/f99f9232-1201-49eb-946f-82877028a338-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/ffed8cb9-8bf2-40f5-8578-f0e10d6535f7-testsuite.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/courseJava/HomeWorkOne.java" afterPath="$PROJECT_DIR$/src/main/java/courseJava/HomeWorkCalc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="0b87b766-855e-4de6-bbf4-7acf6c82a4d5" name="Rejected commit: Default (2)" comment="error">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/differentTest/ApiLesson.java" afterPath="" />
     </list>
     <ignored path="pdffiller.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/courseJava/HomeWorkCalc.java" ignored="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,23 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeWorkOne.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/courseJava/HomeWorkOne.java">
+      <file leaf-file-name="HomeWorkCalc.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/courseJava/HomeWorkCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8486563">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-              <folding>
-                <element signature="docComment;class#HomeWorkOne#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rulete.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Rulete.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="45" selection-start-line="31" selection-start-column="11" selection-end-line="34" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.1923077">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -121,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/main/java/differentTest/BlackJack.java" />
         <option value="$PROJECT_DIR$/src/main/java/differentTest/Rulete.java" />
         <option value="$PROJECT_DIR$/src/main/java/courseJava/Lesson1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/differentTest/Api.java" />
         <option value="$PROJECT_DIR$/src/main/java/courseJava/HomeWorkCalc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/courseJava/HomeWorkOne.java" />
       </list>
     </option>
   </component>
@@ -245,8 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -415,7 +422,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -426,7 +435,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24597701" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PDFFiller-old" />
+    <property name="last_opened_file_path" value="/usr/bin/git" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistoryKey" value="ns&#9;FILE&#9;file:///Users/ANS/IdeaProjects/pdffiller/src/main/java/imap/Constants.java&#10;keymaps&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar!/sun/security/internal/spec/TlsKeyMaterialParameterSpec.class" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
@@ -450,7 +459,7 @@
       <recent name="pdffillerTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeWorkOne">
+  <component name="RunManager" selected="Application.HomeWorkCalc">
     <configuration default="false" name="Json" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -517,14 +526,14 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="HomeWorkOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HomeWorkCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="courseJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="courseJava.HomeWorkOne" />
+      <option name="MAIN_CLASS_NAME" value="courseJava.HomeWorkCalc" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -908,13 +917,13 @@
       <item index="1" class="java.lang.String" itemvalue="TestNG.LoginWithGoogle" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.Json" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.ApiLesson" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HomeWorkOne" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HomeWorkCalc" />
       <item index="5" class="java.lang.String" itemvalue="Application.BlackJack" />
       <item index="6" class="java.lang.String" itemvalue="Application.Rulete" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HomeWorkOne" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HomeWorkCalc" />
         <item index="1" class="java.lang.String" itemvalue="Application.Rulete" />
         <item index="2" class="java.lang.String" itemvalue="Application.BlackJack" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.ApiLesson" />
@@ -978,27 +987,27 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32517007" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16734694" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22430556" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789117" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32517007" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48228884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16734694" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789117" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1011,6 +1020,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <confirmMoveToFailedCommit value="2" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;pdffiller/.idea/workspace.xml&#10;#&#9;pdffiller/src/main/java/courseJava/HomeWorkOne.java&#10;" />
+    <MESSAGE value="error" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,13 +1041,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/src.zip!/java/util/Locale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.8020833">
-          <caret line="2315" column="37" selection-start-line="2315" selection-start-column="37" selection-end-line="2315" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.47.1/selenium-api-2.47.1.jar!/org/openqa/selenium/OutputType.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17660044">
@@ -1324,13 +1332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/ApiLesson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/EncryptedFolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1376,18 +1377,16 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Rulete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="45" selection-start-line="31" selection-start-column="11" selection-end-line="34" selection-end-column="45" />
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/courseJava/HomeWorkOne.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/courseJava/HomeWorkCalc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8486563">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="docComment;class#HomeWorkOne#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.1923077">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
