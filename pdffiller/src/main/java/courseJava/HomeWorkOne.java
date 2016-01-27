@@ -10,6 +10,7 @@ public class HomeWorkCalc {
 
     public static void main(String[] args) {
 
+        // PART  1
 
         Scanner userInput = new Scanner( System.in );
 
@@ -31,6 +32,12 @@ public class HomeWorkCalc {
         else {
              System.out.println("min = max");
          }
+
+
+        // PART  2
+
+
+
 
     }
 }
