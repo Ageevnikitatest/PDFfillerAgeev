@@ -31,15 +31,21 @@ public class HomeWorkCalc {
 
         else {
             System.out.println("min = max");
-        }}
+        }
 
 
         // PART  2
+        System.out.println("             PART 2          ");
 
-        int a;
+        boolean intAge = true;
+
+         System.out.println(" Ввести значение age : ");
+         int age = userInput.nextInt();
+
+        if (age > 0 && age < 120  ){
+
+            System.out.println(intAge);
+        }
 
 
-
-
-
-}
+}}
