@@ -21,15 +21,15 @@ public class HomeWorkCalc {
 
         if (a > b) {
 
-            System.out.println("a = max");
+            System.out.println("max = " + a + "\n" + "min = " + b );
 
         }
          if (a < b) {
-             System.out.println("b = max");
+             System.out.println("max = " + b + "\n" + "min = " + a);
          }
 
         else {
-             System.out.println("a = b");
+             System.out.println("min = max");
          }
 
     }
