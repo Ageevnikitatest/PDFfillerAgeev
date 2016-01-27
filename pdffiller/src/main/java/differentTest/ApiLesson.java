@@ -16,7 +16,6 @@ public class ApiLesson {
     public void getData() throws IOException {
 
 
-
         Request.Get("https://pdffiller.com").execute().returnResponse();
         HttpResponse resp = Request.Get("https://pdffiller.com").execute().returnResponse();
         String respBody = EntityUtils.toString(resp.getEntity());
@@ -24,5 +23,9 @@ public class ApiLesson {
 
     }
 }
+
+
 // брать курс валют на финанс  , на привате тоже и сравнить курсы
-// распарсить стрингу 
+// распарсить стрингу . вытащить html  обрезать по курсу , присвоить к стринге и сравнить .
+
+

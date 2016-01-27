@@ -5,7 +5,23 @@
     <bookmark url="file://$PROJECT_DIR$/pom.xml" line="163" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="8e3c79d5-c8fe-4a2d-8191-a04322cb4bc5" name="Default" comment="" />
+=======
+    <list default="true" id="8e3c79d5-c8fe-4a2d-8191-a04322cb4bc5" name="Default" comment="">
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/differentTest/ApiLesson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/differentTest/Json.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/differentTest/Project.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/differentTest/Status.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/differentTest/StringLesson.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+    </list>
+>>>>>>> e646726b794266448730b211db04f79fff830475
     <ignored path="pdffiller.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,6 +43,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="HomeWorkCalc.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/courseJava/HomeWorkCalc.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -34,16 +51,108 @@
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#HomeWorkCalc#0" expanded="false" />
-              </folding>
+=======
+      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Project.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Status.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Status.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <element signature="docComment;class#Status#0" expanded="false" />
+              </folding>
+<<<<<<< HEAD
+=======
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Json.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Json.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="Json.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Json.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+=======
+      <file leaf-file-name="ApiLesson.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/ApiLesson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
+              </folding>
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="Rulete.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Rulete.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="34" column="45" selection-start-line="31" selection-start-column="11" selection-end-line="34" selection-end-column="45" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="196" column="56" selection-start-line="196" selection-start-column="56" selection-end-line="196" selection-end-column="56" />
+              <folding />
+=======
+      <file leaf-file-name="Sudoku.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Sudoku.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3847242">
+              <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+              <folding>
+                <element signature="docComment;class#Sudoku#0" expanded="false" />
+              </folding>
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="ApiLesson.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/ApiLesson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40586245">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+=======
+      <file leaf-file-name="StringLesson.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/StringLesson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
               <folding />
             </state>
           </provider>
@@ -69,6 +178,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/loginAndRegisterWithGoogle.xml" />
+=======
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+        <option value="$PROJECT_DIR$/src/main/java/pdffillerTest/ConstructorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/imap/AutotestCookie.java" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
         <option value="$PROJECT_DIR$/src/main/java/imap/Buttons.java" />
         <option value="$PROJECT_DIR$/loginWithGoogle.xml" />
         <option value="$PROJECT_DIR$/customBranding.xml" />
@@ -114,12 +232,20 @@
         <option value="$PROJECT_DIR$/src/main/java/differentTest/Project.java" />
         <option value="$PROJECT_DIR$/src/main/java/differentTest/Json.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/differentTest/ApiLesson.java" />
         <option value="$PROJECT_DIR$/src/main/java/courseJava/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/differentTest/BlackJack.java" />
         <option value="$PROJECT_DIR$/src/main/java/differentTest/Rulete.java" />
         <option value="$PROJECT_DIR$/src/main/java/courseJava/Lesson1.java" />
         <option value="$PROJECT_DIR$/src/main/java/courseJava/HomeWorkCalc.java" />
+=======
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/main/java/differentTest/StringLesson.java" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+        <option value="$PROJECT_DIR$/src/main/java/differentTest/ApiLesson.java" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
       </list>
     </option>
   </component>
@@ -138,8 +264,16 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <option name="width" value="1920" />
+    <option name="height" value="984" />
+=======
+>>>>>>> e646726b794266448730b211db04f79fff830475
     <option name="width" value="1440" />
     <option name="height" value="804" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -242,6 +376,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,6 +467,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="pdffillerTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -378,6 +520,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+=======
+>>>>>>> e646726b794266448730b211db04f79fff830475
               <option name="myItemId" value="differentTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -410,9 +554,20 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+=======
+<<<<<<< HEAD
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,20 +602,32 @@
       <recent name="pdffillerTest" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.HomeWorkCalc">
     <configuration default="false" name="Json" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="TestNG.ApiLesson">
+    <configuration default="false" name="GenerateForms" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="differentTest.*" />
+          <option name="PATTERN" value="pdffillerTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="PdfFiller" />
+<<<<<<< HEAD
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="differentTest" />
       <option name="MAIN_CLASS_NAME" value="differentTest.Json" />
+=======
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="pdffillerTest" />
+      <option name="MAIN_CLASS_NAME" value="pdffillerTest.GenerateForms" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -481,7 +648,60 @@
       <listeners />
       <method />
     </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="DimAaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="false" name="GenerateForms2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pdffillerTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+<<<<<<< HEAD
+      <option name="MAIN_CLASS_NAME" value="differentTest.DimAaTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+      <module name="PdfFiller" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="pdffillerTest" />
+      <option name="MAIN_CLASS_NAME" value="pdffillerTest.GenerateForms2" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="ApiLesson" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+<<<<<<< HEAD
+    <configuration default="false" name="GenerateForms2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="false" name="Json" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="differentTest.*" />
@@ -492,8 +712,18 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="differentTest" />
       <option name="MAIN_CLASS_NAME" value="differentTest.ApiLesson" />
+=======
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="pdffillerTest" />
+      <option name="MAIN_CLASS_NAME" value="pdffillerTest.GenerateForms2" />
+=======
+      <option name="PACKAGE_NAME" value="differentTest" />
+      <option name="MAIN_CLASS_NAME" value="differentTest.Json" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -514,27 +744,67 @@
       <listeners />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="HomeWorkCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+=======
+<<<<<<< HEAD
+    <configuration default="false" name="Json" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="false" name="ApiLesson" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="courseJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="courseJava.HomeWorkCalc" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+      <module name="PdfFiller" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="differentTest" />
+<<<<<<< HEAD
+      <option name="MAIN_CLASS_NAME" value="differentTest.Json" />
+=======
+      <option name="MAIN_CLASS_NAME" value="differentTest.ApiLesson" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PdfFiller" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+=======
+<<<<<<< HEAD
+    <configuration default="false" name="ApiLesson" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="false" name="StringLesson" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="differentTest.*" />
@@ -547,6 +817,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+<<<<<<< HEAD
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -564,6 +835,20 @@
       <option name="MAIN_CLASS_NAME" value="differentTest.Rulete" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
+=======
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="differentTest" />
+<<<<<<< HEAD
+      <option name="MAIN_CLASS_NAME" value="differentTest.ApiLesson" />
+=======
+      <option name="MAIN_CLASS_NAME" value="differentTest.StringLesson" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -903,6 +1188,7 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="TestNG./Users/ANS/IdeaProjects/pdffiller/.idea/layoutTests.xml" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.LoginWithGoogle" />
+<<<<<<< HEAD
       <item index="2" class="java.lang.String" itemvalue="TestNG.Json" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.ApiLesson" />
       <item index="4" class="java.lang.String" itemvalue="Application.HomeWorkCalc" />
@@ -916,6 +1202,35 @@
         <item index="2" class="java.lang.String" itemvalue="Application.BlackJack" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.ApiLesson" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.Json" />
+=======
+      <item index="2" class="java.lang.String" itemvalue="TestNG.GenerateForms" />
+<<<<<<< HEAD
+      <item index="3" class="java.lang.String" itemvalue="Application.DimAaTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.GenerateForms2" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.Json" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.ApiLesson" />
+=======
+      <item index="3" class="java.lang.String" itemvalue="TestNG.GenerateForms2" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Json" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.ApiLesson" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.StringLesson" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ApiLesson" />
+<<<<<<< HEAD
+        <item index="1" class="java.lang.String" itemvalue="TestNG.Json" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.GenerateForms" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GenerateForms2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DimAaTest" />
+=======
+        <item index="1" class="java.lang.String" itemvalue="TestNG.StringLesson" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Json" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GenerateForms" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.GenerateForms2" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
       </list>
     </recent_temporary>
   </component>
@@ -938,23 +1253,63 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="ApiLesson - 2015.12.02 at 10h 27m 58s.xml">
       <configuration name="ApiLesson" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ApiLesson - 2015.12.02 at 10h 28m 42s.xml">
       <configuration name="ApiLesson" configurationId="TestNG" />
+=======
+<<<<<<< HEAD
+    <history-entry file="ApiLesson - 2015.12.02 at 10h 27m 58s.xml">
+      <configuration name="ApiLesson" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GenerateForms - 2015.11.13 at 14h 43m 41s.xml">
-      <configuration name="GenerateForms" configurationId="TestNG" />
+    <history-entry file="ApiLesson - 2015.12.02 at 10h 28m 42s.xml">
+      <configuration name="ApiLesson" configurationId="TestNG" />
+=======
+    <history-entry file="ApiLesson - 2015.12.08 at 10h 13m 10s.xml">
+      <configuration name="ApiLesson" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GenerateForms - 2015.11.13 at 14h 58m 52s.xml">
-      <configuration name="GenerateForms" configurationId="TestNG" />
+    <history-entry file="StringLesson - 2015.12.08 at 09h 58m 17s.xml">
+      <configuration name="StringLesson" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GenerateForms - 2015.11.13 at 17h 52m 50s.xml">
-      <configuration name="GenerateForms" configurationId="TestNG" />
+    <history-entry file="StringLesson - 2015.12.08 at 10h 02m 16s.xml">
+      <configuration name="StringLesson" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GenerateForms - 2015.11.13 at 17h 53m 28s.xml">
-      <configuration name="GenerateForms" configurationId="TestNG" />
+    <history-entry file="StringLesson - 2015.12.08 at 10h 02m 56s.xml">
+      <configuration name="StringLesson" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringLesson - 2015.12.08 at 10h 04m 06s.xml">
+      <configuration name="StringLesson" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringLesson - 2015.12.08 at 10h 05m 35s.xml">
+      <configuration name="StringLesson" configurationId="TestNG" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+    </history-entry>
+    <history-entry file="StringLesson - 2015.12.08 at 10h 07m 07s.xml">
+      <configuration name="StringLesson" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringLesson - 2015.12.08 at 10h 08m 42s.xml">
+      <configuration name="StringLesson" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringLesson - 2015.12.08 at 10h 08m 54s.xml">
+      <configuration name="StringLesson" configurationId="TestNG" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
+    </history-entry>
+    <history-entry file="StringLesson - 2015.12.08 at 10h 09m 16s.xml">
+      <configuration name="StringLesson" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Json - 2015.12.01 at 09h 57m 20s.xml">
+      <configuration name="Json" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Json - 2015.12.01 at 10h 22m 17s.xml">
+      <configuration name="Json" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Json - 2015.12.01 at 10h 27m 59s.xml">
+      <configuration name="Json" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Json - 2015.12.01 at 10h 28m 43s.xml">
+      <configuration name="Json" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Json - 2015.12.01 at 09h 57m 20s.xml">
       <configuration name="Json" configurationId="TestNG" />
@@ -970,32 +1325,64 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <frame x="0" y="23" width="1920" height="984" extended-state="0" />
+    <editor active="false" />
+=======
+>>>>>>> e646726b794266448730b211db04f79fff830475
     <frame x="0" y="23" width="1440" height="804" extended-state="0" />
     <editor active="true" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32517007" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="100" y="123" width="1240" height="604" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16734694" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2244898" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16822916" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22430556" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
+=======
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32517007" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48228884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789117" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45442176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789117" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789117" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1023,6 +1410,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/GuessNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="579" column="59" selection-start-line="579" selection-start-column="59" selection-end-line="579" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> e646726b794266448730b211db04f79fff830475
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/src.zip!/java/util/Locale.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.8020833">
@@ -1149,6 +1556,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/customBranding.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
@@ -1171,6 +1579,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/LoginWithGoogle.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Rulete.java">
+>>>>>>> e646726b794266448730b211db04f79fff830475
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
@@ -1266,6 +1677,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/vkBot/MailAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1318,10 +1730,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="60" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="60" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Card.java">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/BlackJack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/MarketingUrlEvgen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="43" column="49" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="49" />
+=======
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customBranding.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/GuessNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+=======
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/annotations/Listeners.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginWithGoogle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/LoginWithGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/RegistrationWithGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+=======
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registrationWithGoogle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+<<<<<<< HEAD
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+=======
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
+          <folding />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/ReviewsMarketingVitalyk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1331,8 +1837,38 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/ApiLesson.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/LinkToFill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+=======
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/GenerateForms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.145686">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/annotations/Listeners.class">
+>>>>>>> e646726b794266448730b211db04f79fff830475
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginWithGoogle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
@@ -1358,42 +1894,198 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="168" column="23" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
+=======
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/LoginWithGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/RegistrationWithGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registrationWithGoogle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/LinkToFill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/GenerateForms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.145686">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdffillerTest/CustomBranding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.021216407">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="docComment;class#CustomBranding#0" expanded="false" />
+=======
+        <state vertical-scroll-proportion="0.021216407">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="docComment;class#CustomBranding#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/imap/PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.021216407">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/imap/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49080622">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="docComment;class#Status#0" expanded="false" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/imap/PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.021216407">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/imap/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49080622">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="docComment;class#Status#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Sudoku.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/StringLesson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/RelatedTreeMarketing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6181047">
           <caret line="157" column="78" selection-start-line="157" selection-start-column="78" selection-end-line="157" selection-end-column="78" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4166666">
+          <caret line="196" column="56" selection-start-line="196" selection-start-column="56" selection-end-line="196" selection-end-column="56" />
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Rulete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="45" selection-start-line="31" selection-start-column="11" selection-end-line="34" selection-end-column="45" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="196" column="56" selection-start-line="196" selection-start-column="56" selection-end-line="196" selection-end-column="56" />
+>>>>>>> e646726b794266448730b211db04f79fff830475
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/courseJava/HomeWorkCalc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3182461">
@@ -1401,6 +2093,32 @@
           <folding>
             <element signature="docComment;class#HomeWorkCalc#0" expanded="false" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/ApiLesson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40586245">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/ApiLesson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/differentTest/Sudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3847242">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding>
+            <element signature="docComment;class#Sudoku#0" expanded="false" />
+          </folding>
+>>>>>>> c5b872959dd31a1f8055378c21cf500f67aa9a9f
+>>>>>>> e646726b794266448730b211db04f79fff830475
         </state>
       </provider>
     </entry>
