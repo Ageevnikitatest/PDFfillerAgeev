@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1448958477624" stop="1448958478974" version="1.4.18" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : PdfFiller</name>
+    <title>Default Suite : PdfFiller</title>
+    <test-cases>
+        <test-case start="1448958477731" stop="1448958478738" status="passed">
+            <name>jSon</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Nikitas-MacBook-Pro.local"/>
+                <label name="thread" value="10323@Nikitas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class Rulete {
 
-    public static int main  (String[] args) {
+    public static void main  (String[] args) {
 
 
 
@@ -47,7 +47,7 @@ public class Rulete {
                 break;
             }
         }
-        return  randomNumber;
+       // return  randomNumber;
     }
 }
 

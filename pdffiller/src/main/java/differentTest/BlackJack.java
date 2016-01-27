@@ -5,7 +5,6 @@ import java.util.*;
 /**
  * Created by ANS on 19/10/15.
  */
-
 public class BlackJack {
 
     public static int main(String[] args) throws InterruptedException {
