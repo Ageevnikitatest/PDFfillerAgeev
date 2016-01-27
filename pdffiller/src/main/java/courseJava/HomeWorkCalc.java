@@ -31,13 +31,15 @@ public class HomeWorkCalc {
 
         else {
             System.out.println("min = max");
-        }
+        }}
 
 
         // PART  2
 
+        int a;
 
 
 
-    }
+
+
 }
