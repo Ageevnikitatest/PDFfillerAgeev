@@ -18,7 +18,7 @@ public class NumberThree {
     List<Integer> numbers = new ArrayList<>();
     int a = 0;
     int array[] = {2, 4, 6, 8, 10, 22, 34, 40, -5, 12, 14, 46, 46, 54, 38, 92};
- // git pull 
+ // git pull
 
 
         for (int i = 0; i < array.length; i++) {
