@@ -35,17 +35,23 @@ public class HomeWorkCalc {
 
 
         // PART  2
-        System.out.println("             PART 2          ");
 
-        boolean intAge = true;
+        System.out.println("             PART 2          "  + "\n");
+
+        boolean intAge = false;
 
          System.out.println(" Ввести значение age : ");
          int age = userInput.nextInt();
 
-        if (age > 0 && age < 120  ){
+      //  if (intAge > 0 && intAge < 120   ){
+
+            System.out.println(intAge);
+
+        if (age < 0 || age > 120)
 
             System.out.println(intAge);
         }
 
 
-}}
+}
+
