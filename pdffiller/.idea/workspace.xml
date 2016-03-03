@@ -5,10 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/pom.xml" line="163" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3c79d5-c8fe-4a2d-8191-a04322cb4bc5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PDFFiller-old" afterPath="$PROJECT_DIR$/../PDFFiller-old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/courseJava/NumberThree.java" afterPath="$PROJECT_DIR$/src/main/java/courseJava/NumberThree.java" />
-    </list>
+    <list default="true" id="8e3c79d5-c8fe-4a2d-8191-a04322cb4bc5" name="Default" comment="" />
     <list id="af552385-8475-4ded-a13b-942cf69d4b9f" name="Rejected commit: Default" comment="" />
     <list id="0b87b766-855e-4de6-bbf4-7acf6c82a4d5" name="Rejected commit: Default (2)" comment="error" />
     <ignored path="pdffiller.iws" />
@@ -35,8 +32,8 @@
       <file leaf-file-name="NumberThree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/courseJava/NumberThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5345912">
-              <caret line="29" column="98" selection-start-line="29" selection-start-column="98" selection-end-line="29" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.8176101">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#NumberThree#0" expanded="false" />
@@ -1423,8 +1420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/courseJava/NumberThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5345912">
-          <caret line="29" column="98" selection-start-line="29" selection-start-column="98" selection-end-line="29" selection-end-column="98" />
+        <state vertical-scroll-proportion="0.8176101">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#NumberThree#0" expanded="false" />
