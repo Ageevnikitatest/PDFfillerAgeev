@@ -50,7 +50,7 @@ public class CustomBranding extends BeforeAfter {
         PageObject.sendKeys(Buttons.custBrandFax, "1 (111) 111-1111");
         //PageObject.screenshot();
             EmailWorker eW = new EmailWorker();
-            eW.deleteAllMessages("test007@pdffiller.com","kifoR1996");
+            eW.deleteAllMessages("nikita@pdffiller.com","kifoR1996");
         PageObject.clickButtonXpath(Buttons.custBrandSendTestEmail);
         Thread.sleep(2000);
         PageObject.clickButtonXpath(Buttons.custBrandDone);
