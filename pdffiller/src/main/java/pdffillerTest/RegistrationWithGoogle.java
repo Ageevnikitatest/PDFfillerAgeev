@@ -19,7 +19,7 @@ import static org.testng.Assert.assertFalse;
 
 
 public class RegistrationWithGoogle  extends BeforeAfter {
-    private static final String EMAILFORREG ="test007@pdffiller.com";
+    private static final String EMAILFORREG ="nikita@pdffiller.com";
     private static final String PASSWORDFORREG = "kifoR1996";
     String urlStatic = "/img/header/header-user-icon-default";
 
