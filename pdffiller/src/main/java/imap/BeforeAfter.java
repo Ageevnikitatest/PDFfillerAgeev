@@ -1,5 +1,7 @@
 package imap;
 
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -24,6 +26,7 @@ public class BeforeAfter {
 
     public void setUpBrowser (@Optional("CH") String browser) {
 
+      //  public static final String ROOT_DIR_CHROME_APP = "/Users/ANS/Documents/JAVA/chromedriver";
 
         if(browser.equalsIgnoreCase("FF")) {
             driver = new FirefoxDriver();
@@ -32,9 +35,12 @@ public class BeforeAfter {
         }
 
         else if (browser.equalsIgnoreCase("CH")){
+
             System.setProperty("webdriver.chrome.driver", Constants.ROOT_DIR_CHROME_APP);
             driver = new ChromeDriver();
             driver.manage().window().maximize();
+           // Dimension targetSize = new Dimension(1440, 900);   FOR MAC
+            // driver.manage().window().setSize(targetSize);      FOR MAC
             System.out.println( "_____________________________ " + "\n" +  "Open Chrome Browser -->>"  +"\n");
         }
 

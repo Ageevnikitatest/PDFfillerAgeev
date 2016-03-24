@@ -17,7 +17,8 @@ import java.io.IOException;
  */
 
 @Listeners({Listener.class})
-@Features({"Custom Branding"})
+
+@Features({"Custom Branding"})  // для  построения отчета с помощью фреймворка  Allure
 
 public class CustomBranding extends BeforeAfter {
 
@@ -25,7 +26,7 @@ public class CustomBranding extends BeforeAfter {
 
 
 
-    @Stories({"Custom Branding"})
+    @Stories({"Custom Branding"}) // для  построения отчета с помощью фреймворка  Allure
 
     @Test
 

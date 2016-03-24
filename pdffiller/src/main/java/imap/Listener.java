@@ -20,7 +20,7 @@ public class Listener extends TestListenerAdapter {
 
 
     public void onTestStart(ITestResult result){
-       System.out.println(result.getName() +"_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Start");
+       System.out.println(result.getName() +" - this test_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Start"+ "\n");
 
 
     }
@@ -29,7 +29,7 @@ public class Listener extends TestListenerAdapter {
 
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println(result.getName()+ "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Error");
+        System.out.println(result.getName()+ " - this test _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Error"+ "\n");
         try {
             PageObject.screenshot(result.getName());
         } catch (IOException e) {
@@ -43,7 +43,7 @@ public class Listener extends TestListenerAdapter {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println(result.getName() + "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Success");
+        System.out.println(result.getName() + " - this test_ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _ _ Success"+ "\n");
         try {
             PageObject.screenshot(result.getName());
         } catch (IOException e) {
@@ -54,7 +54,7 @@ public class Listener extends TestListenerAdapter {
     @Override
     public void onTestSkipped(ITestResult result) {
 
-        System.out.println(result.getName() + "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Skipped");
+        System.out.println(result.getName() + " - this test_ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Skipped"+ "\n");
 
     }
 
