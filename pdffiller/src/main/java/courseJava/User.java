@@ -23,8 +23,6 @@ public class User {
         this(email,password);
         this.age = age;
         this.name = name;
-
-
     }
 
 }

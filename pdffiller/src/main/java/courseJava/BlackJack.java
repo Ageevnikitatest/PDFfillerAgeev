@@ -1,13 +1,15 @@
-package differentTest;
+package courseJava;
 
 import java.util.*;
 
 /**
  * Created by ANS on 19/10/15.
  */
-public class BlackJack {
 
-    public static int main(String[] args) throws InterruptedException {
+
+public class BlackJack  {
+
+    public static void main(String[] args) throws InterruptedException {
 
         Random random = new Random();
         Scanner userInput = new Scanner( System.in );
@@ -69,14 +71,11 @@ public class BlackJack {
 
 
 
+        int onHand ;
+        int onHandBot1 ;
+        int onHand2 = 0;
+        int onHandBot2 = 0;
 
-
-
-
-        int naRykah1 ;
-        int naRykah1Bot ;
-        int naRykah2 =0;
-        int naRykah2Bot =0;
         System.out.println(" *** Сдать карту ? *** ");
         inputTextUser = userInput.next();
         System.out.println("\n");
@@ -85,92 +84,88 @@ public class BlackJack {
         while (inputTextUser.equals("да")) {
 
 
-                int randIndex = random.nextInt(koloda.size());
-                Card rand = koloda.get(randIndex) ;
+            int randIndex = random.nextInt(koloda.size());
+            Card rand = koloda.get(randIndex) ;
 
-                naRykah1 = naRykah2 + rand.value;
+            onHand = onHand2 + rand.value;
+            koloda.remove(randIndex);
 
-                 System.out.println("Сдано: " + rand.value + " " + "("+rand.lear +")"+   "\n" + "Сумма: "+   naRykah1 +"\n" );
+            System.out.println("Сдано: " + rand.value + " " + "("+rand.lear +")"+   "\n" + "Сумма: "+   onHand +"\n" );
 
 
-            if (naRykah1 > 21) {
-                System.out.println("\n" + " *** Перебор ***");
+
+            if (onHand > 21) {
+                System.out.println("\n" + " *** Перебор ***" + "\n");
                 break;
             }
 
-            if (naRykah1 == 21) {
+            if (onHand == 21) {
                 Thread.sleep(1000);
-                System.out.println(" !!! Вы выиграли !!!");
+               // System.out.println("!!! Вы выиграли !!!" + "\n");
                 break;
             }
+
                 else
-                naRykah2 = naRykah1;
+                onHand2 = onHand;
+
                 System.out.println( " Еще карту ?  " + "\n");
                 inputTextUser = userInput.next();
                 System.out.println("\n");
 
-
-            if (inputTextUser.equals("да")){
-                koloda.remove(randIndex);
             }
-               // else  break;
 
-            else {
-                koloda.remove(randIndex);
-                int iAm = naRykah2;
+        int iAm = onHand2;
 
 
 
-                while (naRykah2Bot != 21) {
+        while (onHandBot2 != 21) {
 
-
+                    int randIndex = random.nextInt(koloda.size());
                 Card randBot = koloda.get(randIndex) ;
 
-                naRykah1Bot = naRykah2Bot + randBot.value;
+                onHandBot1 = onHandBot2 + randBot.value;
                 koloda.remove(randIndex);
 
-                System.out.println("Сдано BANK: " + randBot.value + " " + "("+randBot.lear +")"+   "\n" + "Сумма у BANK : "+   naRykah1Bot +"\n" );
+                System.out.println("Сдано BANK: " + randBot.value + " " + "("+randBot.lear +")"+   "\n" + "Сумма у BANK : "+   onHandBot1 +"\n" );
                     Thread.sleep(2000);
 
 
-                if (naRykah1Bot > 21) {
+                if (onHandBot1 > 21) {
                     System.out.println("\n" + " *** У BANK перебор ***");
                     break;
                 }
 
-                if (naRykah1Bot == 21) {
+                if (onHandBot1 == 21) {
                     Thread.sleep(2000);
-                    System.out.println(" !!! BANK Выиграл !!!");
+                   System.out.println(" !!! BANK Выиграл !!!");
                     break;
                 }
-                else
-                    naRykah2Bot = naRykah1Bot;
 
-                if  (naRykah2Bot< iAm){
+                 else
+
+                onHandBot2 = onHandBot1;
 
 
-
+                if  (onHandBot2 < iAm){
                     System.out.println("BANK берет еще карту" + "\n");
                     Thread.sleep(3000);
-
-
                 }
-                    if (naRykah2Bot>iAm){
+
+                    if (onHandBot2 > iAm ){
                         System.out.println("***  Bank выиграл  ***");
                         break;
                     }
 
-                if (naRykah2Bot == iAm){
+                if (onHandBot2 == iAm){
                     System.out.println("***  НИЧЬЯ  ***");
                     break;
-                }
-                }
+                 }
 
-                return naRykah2Bot;
+                }
             }
         }
-                return naRykah2;
 
-    }
-    }
+
+
+
 

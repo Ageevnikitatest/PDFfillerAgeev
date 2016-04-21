@@ -1,11 +1,10 @@
-package differentTest;
+package courseJava;
 
 /**
  * Created by ANS on 20/10/15.
  */
 public class Card {
 
-//ЭТО КОНСТРУКТОР !! СУККККА !!!
 
     public Card (int value , String lear) {
 
@@ -20,10 +19,8 @@ public class Card {
     @Override
     public String toString(){
         return "Card: "+value+" lear="+lear;
+
+
     }
-
-
-
-
 }
 
