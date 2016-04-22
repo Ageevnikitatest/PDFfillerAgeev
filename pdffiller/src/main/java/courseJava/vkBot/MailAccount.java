@@ -1,4 +1,4 @@
-package vkBot;
+package courseJava.vkBot;
 
 import imap.BeforeAfter;
 import imap.PageObject;

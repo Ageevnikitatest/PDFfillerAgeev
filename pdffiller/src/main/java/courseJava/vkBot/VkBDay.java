@@ -1,12 +1,10 @@
-package courseJava;
+package courseJava.vkBot;
 
 
 import imap.BeforeAfter;
 import imap.Listener;
 import imap.PageObject;
-import org.openqa.jetty.html.Page;
 import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Step;
 
 /**
@@ -28,13 +26,13 @@ public class VkBDay extends BeforeAfter{
 
 
     @Step ("login")
-    public static void loginVk (String email, String password) throws InterruptedException {
+        public static void loginVk (String email, String password) throws InterruptedException {
 
-         PageObject.openUrl(vk);
-         PageObject.sendKeys(nameField,email);
-         PageObject.sendKeys(passField, password);
-         PageObject.clickButtonXpath(enterButton);
-         PageObject.waitElement(people,5);
+             PageObject.openUrl(vk);
+             PageObject.sendKeys(nameField,email);
+             PageObject.sendKeys(passField, password);
+             PageObject.clickButtonXpath(enterButton);
+             PageObject.waitElement(people,5);
 }
 
     @Step ("logOut")
@@ -55,19 +53,14 @@ public class VkBDay extends BeforeAfter{
                      Thread.sleep(3000);
                      System.out.println(PageObject.getText("(//div[@class='labeled name']/a[@href])[" +i+ "]" + "\n"));
                      i++;
+
                      PageObject.clickButtonXpath("(//span[@class='left_label inl_bl'])[11]");
                      Thread.sleep(3000);
                      PageObject.clickButtonXpath("(//span[@class='left_label inl_bl'])[1]");
                      Thread.sleep(3000);
                      PageObject.clickButtonXpath(people);
-
             }
         }
-
-
-
-
-
     }
 
 

@@ -31,7 +31,7 @@ public class GenerateForms extends BeforeAfter {
         driver.manage().addCookie(cookieDisableCaptcha);
         Thread.sleep(2000);
         java.lang.String url =
-                "http://denise.pdffiller.com/6962253-fw9--2014pdf-Form-W-9-Rev-December-2014-User-Forms";
+                "http://denise.pdffiller.com/6962253-fw9--2014pdf-Form-W-9-Rev-December-2014-User2-Forms";
 
 
         PageObject.openUrl("https://denise.pdffiller.com/en/login.htm");

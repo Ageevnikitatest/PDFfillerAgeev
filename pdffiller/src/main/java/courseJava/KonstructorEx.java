@@ -12,13 +12,13 @@ public class KonstructorEx {
 
     public void  tryUser (){
 
-        User user1 = new User("111","111");
-        User user2 = new User("222","222");
-        User user3 = new User("333","333");
+        User2 user1 = new User2("111","111");
+        User2 user2 = new User2("222","222");
+        User2 user3 = new User2("333","333");
 
 
 
-        System.out.println("User1 email: " + user1.email);
+        System.out.println("User email: " + user1.email);
         System.out.println("User2 email: " + user2.email);
         System.out.println("User3 email: " + user3.email);
 

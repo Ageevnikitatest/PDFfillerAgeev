@@ -1,6 +1,7 @@
-package courseJava;
+package courseJava.vkBot;
 
 
+import courseJava.vkBot.VkBDay;
 import org.testng.annotations.Test;
 
 /**
