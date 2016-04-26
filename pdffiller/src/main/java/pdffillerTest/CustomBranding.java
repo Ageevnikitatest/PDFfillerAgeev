@@ -43,10 +43,10 @@ public class CustomBranding extends BeforeAfter {
         PageObject.setElementAttribute(formInput, "style", "position: fixed; top: 1000px;");
         driver.findElement(By.xpath(Buttons.uploadCustomBranding)).sendKeys("/Users/ANS/Documents/JAVA/TEST.jpg");
         Thread.sleep(5000);
-        PageObject.sendKeys(Buttons.cusBrandFirstName, "Test1 First Name");
-        PageObject.sendKeys(Buttons.cusBrandLastName, "Test1 Last Name");
-        PageObject.sendKeys(Buttons.cusBrandTitle, "Test1 Title");
-        PageObject.sendKeys(Buttons.custBrandCompany, "Test1 Company");
+        PageObject.sendKeys(Buttons.cusBrandFirstName, "RegForm5Test First Name");
+        PageObject.sendKeys(Buttons.cusBrandLastName, "RegForm5Test Last Name");
+        PageObject.sendKeys(Buttons.cusBrandTitle, "RegForm5Test Title");
+        PageObject.sendKeys(Buttons.custBrandCompany, "RegForm5Test Company");
         PageObject.sendKeys(Buttons.custBrandPhone, "+38 (099) 123-12-12");
         PageObject.sendKeys(Buttons.custBrandFax, "1 (111) 111-1111");
         //PageObject.screenshot();
@@ -58,7 +58,7 @@ public class CustomBranding extends BeforeAfter {
         PageObject.swichToAlert();
         PageObject.deleteAccount();
         Thread.sleep(3000);
-        String mailUrl = GmailClient.CheckTextInEmail("Test1 send personal email");
+        String mailUrl = GmailClient.CheckTextInEmail("RegForm5Test send personal email");
         PageObject.openUrl(mailUrl);
         Thread.sleep(5000);
 
@@ -66,7 +66,7 @@ public class CustomBranding extends BeforeAfter {
 
         PageObject.checkText("Email:" + PageObject.emailReg, "//li[contains(text(),'Email')]"); // проверка имейла
         PageObject.checkText("Thank you", "(//div[@style='margin: 0; padding: 0; text-align: left;']//li[@style])[1]");
-        PageObject.checkText("Test1 Title Test1 Company","(//div[@style='margin: 0; padding: 0; text-align: left;']//li[@style])[4]");
+        PageObject.checkText("RegForm5Test Title RegForm5Test Company","(//div[@style='margin: 0; padding: 0; text-align: left;']//li[@style])[4]");
         PageObject.checkText("+38 (099) 123-12-12","(//div[@style='margin: 0; padding: 0; text-align: left;']//li[@style])[6]");
         PageObject.checkText("1 (111) 111-1111","(//div[@style='margin: 0; padding: 0; text-align: left;']//li[@style])[7]");
         PageObject.isDisplayedXpath("//img");

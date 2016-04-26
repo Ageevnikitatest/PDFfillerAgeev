@@ -1,6 +1,8 @@
-package courseJava;
+package courseJava.interFace;
 
 
+import courseJava.InterFace;
+import courseJava.User;
 import imap.BeforeAfter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

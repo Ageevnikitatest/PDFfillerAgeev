@@ -18,7 +18,7 @@ public class RelatedTreeMarketing extends BeforeAfter {
 
 
 
-   // @Test1
+   // @RegForm5Test
 
     public void releated () throws IOException {
 
