@@ -18,19 +18,19 @@ public class Top100Checker  extends BeforeAfter {
     @DataProvider(name = "formUrls")     // все действия - это отдельный тест
     public static Object[][] landings() {
         return new Object[][] {
-                { "/6962253-fw9--2014pdf-Form-W-9-Rev-December-2014-User-Forms"},
-                { "/6959008-212239pdf-DS-11-Application-for-a-US-Passport---US-Department-of-State-User-Forms"},
+                { "/6962253-fw9--2014pdf-Form-W-9-Rev-December-2014-User2-Forms"},
+                { "/6959008-212239pdf-DS-11-Application-for-a-US-Passport---US-Department-of-State-User2-Forms"},
                 {  "/100264019-212241pdf-DS-82---US-Passport-Renewal-Application---Department-of-State-" },
-                { "/100101920-Revised-NBI-Clearance-Application-Form-V17-blue2pdf-Fillable-THIS-FORM-IS-NOT-FOR-SALE---NBI-User-Forms" },
+                { "/100101920-Revised-NBI-Clearance-Application-Form-V17-blue2pdf-Fillable-THIS-FORM-IS-NOT-FOR-SALE---NBI-User2-Forms" },
                 { "/15971119-6-181pdf-FOID-card-application---Illinois-State-Police-Various-Fillable-Forms"},
-                {"/6961858-fw2--2014pdf-2014-Form-W-2-User-Forms"},
+                {"/6961858-fw2--2014pdf-2014-Form-W-2-User2-Forms"},
                 {"/41772446-f1099msc--2014pdf-2014-Form-1099-MISC---Internal-Revenue-Service-Various-Fillable-Forms"},
-                {"/6961804-f4506t--2014pdf-Form-4506-T-Rev-August-2014-User-Forms"},
-                {"/6957914-1500_claim_form_2012_02pdf-CMS-1500-02-12---Health-Insurance-Claim-Form-User-Forms"},
-                {"/6961732-f941--2014pdf-Form-941-Rev-January-2014-User-Forms"},
-                {"/6960342-25pdf-Acord-25-201401---Certificate-of-Liability-Insurance-User-Forms"},
-                {"/100012429-printable-pay-stubpdf-Free-Employee-Pay-Stub---Pay-Stub-Template-User-Forms--paystubtemplates"},
-                {"/100068730-C-2SampleLEASEpdf-Fillable-BASIC-RENTAL-AGREEMENT-OR-RESIDENTIAL-LEASE-User-Forms--dca-ga"},
+                {"/6961804-f4506t--2014pdf-Form-4506-T-Rev-August-2014-User2-Forms"},
+                {"/6957914-1500_claim_form_2012_02pdf-CMS-1500-02-12---Health-Insurance-Claim-Form-User2-Forms"},
+                {"/6961732-f941--2014pdf-Form-941-Rev-January-2014-User2-Forms"},
+                {"/6960342-25pdf-Acord-25-201401---Certificate-of-Liability-Insurance-User2-Forms"},
+                {"/100012429-printable-pay-stubpdf-Free-Employee-Pay-Stub---Pay-Stub-Template-User2-Forms--paystubtemplates"},
+                {"/100068730-C-2SampleLEASEpdf-Fillable-BASIC-RENTAL-AGREEMENT-OR-RESIDENTIAL-LEASE-User2-Forms--dca-ga"},
         };}
 
     @DataProvider(name = "proxies")

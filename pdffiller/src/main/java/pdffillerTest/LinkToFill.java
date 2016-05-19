@@ -47,7 +47,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
     public void linkOrButtonTextSendKeys (){
 
         driver.findElement(firstTextField).clear();
-        driver.findElement(firstTextField).sendKeys("Button Test");
+        driver.findElement(firstTextField).sendKeys("Button RegForm5Test");
     }
 
 

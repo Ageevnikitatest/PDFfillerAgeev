@@ -47,8 +47,7 @@ public class With {
 			@Override
 			public boolean match(Message message) {
 				if (message == null) {
-					System.err
-							.println("=======================================================");
+					System.err.println("=======================================================");
 					System.err.println("Message is null");
 				}
 				try {

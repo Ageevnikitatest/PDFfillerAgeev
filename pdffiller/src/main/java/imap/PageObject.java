@@ -65,7 +65,7 @@ public class PageObject extends BeforeAfter {
              }
     }
 
-    @Step ("Login user")
+    @Step ("Kismia user")
     public static void login (String email, String password) {
 
         driver.findElement(By.xpath("//div[@class='form-group']/input[@type='email']")).clear();
