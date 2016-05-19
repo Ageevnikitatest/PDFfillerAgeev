@@ -18,18 +18,17 @@ public class TestRequests {
 
     @Test
     public void testGetRequest() throws IOException, URISyntaxException {
-        //SimpleRequests simpleRequests = new SimpleRequests();
-        //GetResponse resp = simpleRequests.get();
 
-        GetResponse getResponse = new GetResponse();
+        SimpleRequests simpleRequests = new SimpleRequests();
+        GetResponse resp = simpleRequests.get();
+        System.out.println(resp);
+
+
+       /* GetResponse getResponse = new GetResponse();
         getResponse.origin = "origin String alalalaala 923";
-        getResponse.url = "https://gsdg.dg";
+        getResponse.url = "https://gsdg.dg";*/
 
-
-        String json = mapper.writeValueAsString(getResponse);
-        System.out.println(json);
-
-        //System.out.println(resp);
-
+       // String json = mapper.writeValueAsString(getResponse);
+       // System.out.println(json);
     }
 }
