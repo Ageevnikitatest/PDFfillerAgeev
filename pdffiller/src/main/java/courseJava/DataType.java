@@ -23,4 +23,3 @@ public class DataType extends BeforeAfter{
 
 
 
-//норм
