@@ -3,7 +3,6 @@ package courseJava.apiHttpbin.responseClasses;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
 
-import java.util.List;
 
 /**
  * Created by ANS on 13/05/16.
@@ -16,9 +15,8 @@ public class GetResponse {
 
     }
 
-   public String origin;
+    public String origin;
     public String url;
-
 
 
     public Headers headers;

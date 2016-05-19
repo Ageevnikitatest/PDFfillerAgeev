@@ -16,15 +16,10 @@ public class Registration {
 
     public  void reg () throws IOException, URISyntaxException {
 
-        ApiUser apiUser = new ApiUser();
+        ApiUserNew apiUser1 = new ApiUserNew();
 
-       String user =  apiUser.registration("QAtest+22@gmail.com","1111");
+       String user =  apiUser1.registration("QAtest+22@gmail.com","1111");
         System.out.println(user);
 
     }
-
-
-
-
-
 }

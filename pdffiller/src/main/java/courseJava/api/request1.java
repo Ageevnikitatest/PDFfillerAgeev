@@ -12,7 +12,7 @@ import java.io.IOException;
 /**
  * Created by ANS on 26/04/16.
  */
-public class Request1 {
+ class Request1 {
 
     public static String host = "www.irs.gov/pub/irs-pdf/fw2.pdf";
     public static String scheme = "https"; // указать схему
@@ -33,7 +33,4 @@ public class Request1 {
         Assert.assertEquals(statusCode, HttpStatus.SC_OK, "Status code: " + statusCode);
         return respBody;
     }
-
-
-
 }

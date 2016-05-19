@@ -9,9 +9,10 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 /**
- * Created by ANS on 26/04/16.
+ * Created by ANS on 19/05/16.
  */
-public class ApiUser extends Request1 {
+public class ApiUserNew extends Request1{
+
 
     ObjectMapper objectMapper = new ObjectMapper();
 
@@ -28,3 +29,4 @@ public class ApiUser extends Request1 {
 
 
 }
+
